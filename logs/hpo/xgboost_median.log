@@ -1,0 +1,12 @@
+2025-07-11 23:55:54  === New Optuna session started (XGBoost + MedianPruner) ===
+2025-07-11 23:56:51  XGB Trial   0 | Fold 1 | Trees 197/950 | AUC 0.78241 | Avg@1 0.78241
+2025-07-11 23:57:42  XGB Trial   0 | Fold 2 | Trees 212/950 | AUC 0.79015 | Avg@2 0.78628
+2025-07-11 23:58:36  XGB Trial   0 | Fold 3 | Trees 241/950 | AUC 0.78422 | Avg@3 0.78559
+2025-07-11 23:59:30  XGB Trial   0 | Fold 4 | Trees 233/950 | AUC 0.78986 | Avg@4 0.78666
+2025-07-12 00:00:33  XGB Trial   0 | Fold 5 | Trees 288/950 | AUC 0.78262 | Avg@5 0.78585
+2025-07-12 00:00:33  XGB Trial 0 complete | Params: {'n_estimators': 950, 'learning_rate': 0.08927180304353628, 'max_depth': 5, 'subsample': 0.9197316968394074, 'colsample_bytree': 0.8312037280884873, 'gamma': 2.8119890406724055, 'reg_alpha': 2.5871254182522994, 'reg_lambda': 2.799264218662403}
+
+2025-07-12 00:47:25  === New Optuna session started (XGBoost + MedianPruner) ===
+2025-07-12 00:48:24  XGB Trial   0 | Fold 1 | AUC 0.78241 | Avg@1 0.78241
+2025-07-12 00:50:00  === New Optuna session started (XGBoost + MedianPruner) ===
+2025-07-12 00:50:58  XGB Trial   0 | Fold 1 | AUC 0.78241 | Avg@1 0.78241

@@ -1,0 +1,8 @@
+2025-07-11 23:09:03  === New Optuna session started (LightGBM + Hyperband) ===
+2025-07-11 23:12:02  LGBM Trial 0 | Fold 1 | AUC 0.78991 | Avg@1 0.78991
+2025-07-11 23:14:24  LGBM Trial 0 | Fold 2 | AUC 0.79878 | Avg@2 0.79434
+2025-07-12 00:32:21  === New Optuna session started (LightGBM + Hyperband) ===
+2025-07-12 00:36:25  LGBM Trial   0 | Fold 1 | AUC 0.78996 | Avg@1 0.78996
+2025-07-12 00:40:07  === New Optuna session started (LightGBM + Hyperband) ===
+2025-07-12 00:41:53  === New Optuna session started (LightGBM + Hyperband) ===
+2025-07-12 00:45:52  LGBM Trial   0 | Fold 1 | AUC 0.78996 | Avg@1 0.78996

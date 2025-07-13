@@ -1,0 +1,10 @@
+2025-07-12 00:05:32  === New Optuna session started (CatBoost + MedianPruner) ===
+2025-07-12 00:08:39  Cat Trial   0 | Fold 1 | AUC 0.78606 | Avg@1 0.78606
+2025-07-12 00:11:01  Cat Trial   0 | Fold 2 | AUC 0.79430 | Avg@2 0.79018
+2025-07-12 00:13:17  Cat Trial   0 | Fold 3 | AUC 0.78651 | Avg@3 0.78896
+2025-07-12 00:16:43  Cat Trial   0 | Fold 4 | AUC 0.79330 | Avg@4 0.79004
+2025-07-12 00:20:26  Cat Trial   0 | Fold 5 | AUC 0.78522 | Avg@5 0.78908
+2025-07-12 00:20:26  Cat Trial 0 complete | Params: {'iterations': 1187, 'learning_rate': 0.06713701822915177, 'depth': 7, 'l2_leaf_reg': 6.894633936788146, 'bagging_temperature': 0.37800932022121825, 'border_count': 62, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'task_type': 'CPU', 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE']}
+2025-07-12 00:51:38  === New Optuna session started (CatBoost + MedianPruner) ===
+2025-07-12 00:52:52  === New Optuna session started (CatBoost + MedianPruner) ===
+2025-07-12 00:56:01  Cat Trial   0 | Fold 1 | AUC 0.78606 | Avg@1 0.78606

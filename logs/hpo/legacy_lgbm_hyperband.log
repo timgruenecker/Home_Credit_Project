@@ -1,0 +1,712 @@
+Legacy LGBM Log File
+Logs are from a former LGBM hpo notebook. The best hyperparameters found in this file are used for the final LightGBM training.
+But the refactored hpo notebook is the lightgbm_hyperband.log
+
+
+2025-07-08 10:01:04  === Neue Optuna-Session gestartet ===
+2025-07-08 10:08:19  Trial   0 | Fold 1 | AUC 0.76867 | Avg@1 0.76867
+2025-07-08 10:15:27  Trial   0 | Fold 2 | AUC 0.77602 | Avg@2 0.77235
+2025-07-08 10:22:32  Trial   0 | Fold 3 | AUC 0.76926 | Avg@3 0.77132
+2025-07-08 10:22:32  Trial 0 complete | Params: {'boosting_type': 'gbdt', 'learning_rate': 0.0010452602516828778, 'max_depth': 14, 'num_leaves': 161, 'min_child_samples': 126, 'reg_alpha': 5.261920626310134, 'reg_lambda': 13.118338406016306, 'subsample': 0.8535524575854146, 'colsample_bytree': 0.9231738011104239, 'n_estimators': 1896}
+
+2025-07-08 10:29:49  Trial   1 | Fold 1 | AUC 0.78542 | Avg@1 0.78542
+2025-07-08 10:37:01  Trial   1 | Fold 2 | AUC 0.79391 | Avg@2 0.78967
+2025-07-08 10:44:17  Trial   1 | Fold 3 | AUC 0.78672 | Avg@3 0.78868
+2025-07-08 10:44:17  Trial 1 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.001246070819753256, 'max_depth': 12, 'num_leaves': 184, 'min_child_samples': 115, 'reg_alpha': 0.0835559177582712, 'reg_lambda': 0.0077717008714562556, 'subsample': 0.8748809738744243, 'colsample_bytree': 0.5646819203035365, 'n_estimators': 4487}
+
+2025-07-08 10:49:15  Trial   2 | Fold 1 | AUC 0.77011 | Avg@1 0.77011
+2025-07-08 10:49:15  Trial 2 pruned at fold 1
+
+2025-07-08 10:57:20  Trial   3 | Fold 1 | AUC 0.78836 | Avg@1 0.78836
+2025-07-08 11:05:26  Trial   3 | Fold 2 | AUC 0.79643 | Avg@2 0.79240
+2025-07-08 11:13:34  Trial   3 | Fold 3 | AUC 0.78918 | Avg@3 0.79133
+2025-07-08 11:13:34  Trial 3 complete | Params: {'boosting_type': 'gbdt', 'learning_rate': 0.0027235104145945195, 'max_depth': 13, 'num_leaves': 134, 'min_child_samples': 189, 'reg_alpha': 4.149714892980693, 'reg_lambda': 0.028310408640937933, 'subsample': 0.8144343604497299, 'colsample_bytree': 0.6043614671338288, 'n_estimators': 3704}
+
+2025-07-08 11:15:56  Trial   4 | Fold 1 | AUC 0.77849 | Avg@1 0.77849
+2025-07-08 11:15:56  Trial 4 pruned at fold 1
+
+2025-07-08 11:21:10  Trial   5 | Fold 1 | AUC 0.77051 | Avg@1 0.77051
+2025-07-08 11:21:10  Trial 5 pruned at fold 1
+
+2025-07-08 11:31:03  Trial   6 | Fold 1 | AUC 0.78062 | Avg@1 0.78062
+2025-07-08 11:40:58  Trial   6 | Fold 2 | AUC 0.78938 | Avg@2 0.78500
+2025-07-08 11:50:53  Trial   6 | Fold 3 | AUC 0.78158 | Avg@3 0.78386
+2025-07-08 11:50:53  Trial 6 complete | Params: {'boosting_type': 'gbdt', 'learning_rate': 0.001118719744108967, 'max_depth': 14, 'num_leaves': 109, 'min_child_samples': 154, 'reg_alpha': 0.0829241394765221, 'reg_lambda': 11.669214967183441, 'subsample': 0.6778444799746002, 'colsample_bytree': 0.6667190261544137, 'n_estimators': 3887}
+
+2025-07-08 12:11:04  Trial   7 | Fold 1 | AUC 0.77309 | Avg@1 0.77309
+2025-07-08 12:11:04  Trial 7 pruned at fold 1
+
+2025-07-08 12:18:16  Trial   8 | Fold 1 | AUC 0.78080 | Avg@1 0.78080
+2025-07-08 12:18:16  Trial 8 pruned at fold 1
+
+2025-07-08 12:23:57  Trial   9 | Fold 1 | AUC 0.77821 | Avg@1 0.77821
+2025-07-08 12:29:35  Trial   9 | Fold 2 | AUC 0.78525 | Avg@2 0.78173
+2025-07-08 12:35:14  Trial   9 | Fold 3 | AUC 0.77827 | Avg@3 0.78058
+2025-07-08 12:35:14  Trial 9 pruned at fold 3
+
+2025-07-08 12:38:16  Trial  10 | Fold 1 | AUC 0.78440 | Avg@1 0.78440
+2025-07-08 12:41:18  Trial  10 | Fold 2 | AUC 0.79273 | Avg@2 0.78857
+2025-07-08 12:44:20  Trial  10 | Fold 3 | AUC 0.78605 | Avg@3 0.78773
+2025-07-08 12:44:20  Trial 10 pruned at fold 3
+
+2025-07-08 12:50:28  Trial  11 | Fold 1 | AUC 0.78913 | Avg@1 0.78913
+2025-07-08 12:56:32  Trial  11 | Fold 2 | AUC 0.79655 | Avg@2 0.79284
+2025-07-08 13:02:47  Trial  11 | Fold 3 | AUC 0.78967 | Avg@3 0.79178
+2025-07-08 13:02:47  Trial 11 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0029198641386727594, 'max_depth': 12, 'num_leaves': 198, 'min_child_samples': 68, 'reg_alpha': 1.1690688626670613, 'reg_lambda': 0.002401963808233377, 'subsample': 0.8285640018598724, 'colsample_bytree': 0.5118132624467239, 'n_estimators': 4563}
+
+2025-07-08 13:06:09  Trial  12 | Fold 1 | AUC 0.78732 | Avg@1 0.78732
+2025-07-08 13:09:29  Trial  12 | Fold 2 | AUC 0.79569 | Avg@2 0.79150
+2025-07-08 13:12:56  Trial  12 | Fold 3 | AUC 0.78865 | Avg@3 0.79055
+2025-07-08 13:12:56  Trial 12 pruned at fold 3
+
+2025-07-08 13:17:18  Trial  13 | Fold 1 | AUC 0.78764 | Avg@1 0.78764
+2025-07-08 13:21:31  Trial  13 | Fold 2 | AUC 0.79437 | Avg@2 0.79100
+2025-07-08 13:25:57  Trial  13 | Fold 3 | AUC 0.78801 | Avg@3 0.79001
+2025-07-08 13:25:57  Trial 13 pruned at fold 3
+
+2025-07-08 13:32:47  Trial  14 | Fold 1 | AUC 0.78812 | Avg@1 0.78812
+2025-07-08 13:39:23  Trial  14 | Fold 2 | AUC 0.79586 | Avg@2 0.79199
+2025-07-08 13:45:31  Trial  14 | Fold 3 | AUC 0.78925 | Avg@3 0.79108
+2025-07-08 13:45:31  Trial 14 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0024304189086598654, 'max_depth': 12, 'num_leaves': 198, 'min_child_samples': 85, 'reg_alpha': 1.5137409094203038, 'reg_lambda': 0.003917617326018697, 'subsample': 0.7846068041064789, 'colsample_bytree': 0.6965471289845974, 'n_estimators': 3564}
+
+2025-07-08 13:48:53  Trial  15 | Fold 1 | AUC 0.78496 | Avg@1 0.78496
+2025-07-08 13:52:16  Trial  15 | Fold 2 | AUC 0.79217 | Avg@2 0.78856
+2025-07-08 13:55:44  Trial  15 | Fold 3 | AUC 0.78622 | Avg@3 0.78778
+2025-07-08 13:55:44  Trial 15 pruned at fold 3
+
+2025-07-08 14:01:13  Trial  16 | Fold 1 | AUC 0.78608 | Avg@1 0.78608
+2025-07-08 14:01:13  Trial 16 pruned at fold 1
+
+2025-07-08 14:07:51  Trial  17 | Fold 1 | AUC 0.78626 | Avg@1 0.78626
+2025-07-08 14:14:30  Trial  17 | Fold 2 | AUC 0.79452 | Avg@2 0.79039
+2025-07-08 14:21:09  Trial  17 | Fold 3 | AUC 0.78773 | Avg@3 0.78950
+2025-07-08 14:21:09  Trial 17 pruned at fold 3
+
+2025-07-08 14:27:42  Trial  18 | Fold 1 | AUC 0.78843 | Avg@1 0.78843
+2025-07-08 14:35:01  Trial  18 | Fold 2 | AUC 0.79571 | Avg@2 0.79207
+2025-07-08 14:41:43  Trial  18 | Fold 3 | AUC 0.78868 | Avg@3 0.79094
+2025-07-08 14:41:43  Trial 18 pruned at fold 3
+
+2025-07-08 14:42:07  Trial  19 | Fold 1 | AUC 0.76195 | Avg@1 0.76195
+2025-07-08 14:42:07  Trial 19 pruned at fold 1
+
+2025-07-08 14:44:21  Trial  20 | Fold 1 | AUC 0.78392 | Avg@1 0.78392
+2025-07-08 14:46:32  Trial  20 | Fold 2 | AUC 0.79265 | Avg@2 0.78829
+2025-07-08 14:48:47  Trial  20 | Fold 3 | AUC 0.78533 | Avg@3 0.78730
+2025-07-08 14:48:47  Trial 20 pruned at fold 3
+
+2025-07-08 14:54:47  Trial  21 | Fold 1 | AUC 0.78662 | Avg@1 0.78662
+2025-07-08 14:54:47  Trial 21 pruned at fold 1
+
+2025-07-08 15:01:11  Trial  22 | Fold 1 | AUC 0.78779 | Avg@1 0.78779
+2025-07-08 15:07:33  Trial  22 | Fold 2 | AUC 0.79587 | Avg@2 0.79183
+2025-07-08 15:14:03  Trial  22 | Fold 3 | AUC 0.78876 | Avg@3 0.79081
+2025-07-08 15:14:03  Trial 22 pruned at fold 3
+
+2025-07-08 15:20:37  Trial  23 | Fold 1 | AUC 0.78795 | Avg@1 0.78795
+2025-07-08 15:27:09  Trial  23 | Fold 2 | AUC 0.79595 | Avg@2 0.79195
+2025-07-08 15:33:49  Trial  23 | Fold 3 | AUC 0.78931 | Avg@3 0.79107
+2025-07-08 15:33:49  Trial 23 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.002952012951111342, 'max_depth': 13, 'num_leaves': 230, 'min_child_samples': 74, 'reg_alpha': 0.6610491661496867, 'reg_lambda': 0.004238595196911047, 'subsample': 0.7524982518637866, 'colsample_bytree': 0.7547254042547851, 'n_estimators': 3437}
+
+2025-07-08 15:39:55  Trial  24 | Fold 1 | AUC 0.78511 | Avg@1 0.78511
+2025-07-08 15:45:59  Trial  24 | Fold 2 | AUC 0.79156 | Avg@2 0.78833
+2025-07-08 15:52:14  Trial  24 | Fold 3 | AUC 0.78554 | Avg@3 0.78740
+2025-07-08 15:52:14  Trial 24 pruned at fold 3
+
+2025-07-08 16:00:08  Trial  25 | Fold 1 | AUC 0.78323 | Avg@1 0.78323
+2025-07-08 16:00:08  Trial 25 pruned at fold 1
+
+2025-07-08 16:04:53  Trial  26 | Fold 1 | AUC 0.78955 | Avg@1 0.78955
+2025-07-08 16:09:52  Trial  26 | Fold 2 | AUC 0.79797 | Avg@2 0.79376
+2025-07-08 16:15:27  Trial  26 | Fold 3 | AUC 0.78999 | Avg@3 0.79250
+2025-07-08 16:15:27  Trial 26 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0025158683906489933, 'max_depth': 15, 'num_leaves': 210, 'min_child_samples': 181, 'reg_alpha': 0.7542039115145629, 'reg_lambda': 0.04559136438999355, 'subsample': 0.7695950077983011, 'colsample_bytree': 0.480897470787789, 'n_estimators': 3798}
+
+2025-07-08 16:19:42  Trial  27 | Fold 1 | AUC 0.78417 | Avg@1 0.78417
+2025-07-08 16:23:49  Trial  27 | Fold 2 | AUC 0.79005 | Avg@2 0.78711
+2025-07-08 16:29:00  Trial  27 | Fold 3 | AUC 0.78176 | Avg@3 0.78533
+2025-07-08 16:29:00  Trial 27 pruned at fold 3
+
+2025-07-08 16:51:36  Trial  28 | Fold 1 | AUC 0.78308 | Avg@1 0.78308
+2025-07-08 16:51:36  Trial 28 pruned at fold 1
+
+2025-07-08 16:55:19  Trial  29 | Fold 1 | AUC 0.77464 | Avg@1 0.77464
+2025-07-08 16:55:19  Trial 29 pruned at fold 1
+
+2025-07-08 17:04:21  Trial  30 | Fold 1 | AUC 0.78509 | Avg@1 0.78509
+2025-07-08 17:04:21  Trial 30 pruned at fold 1
+
+2025-07-08 17:10:41  Trial  31 | Fold 1 | AUC 0.78831 | Avg@1 0.78831
+2025-07-08 17:21:21  Trial  31 | Fold 2 | AUC 0.79675 | Avg@2 0.79253
+2025-07-08 17:31:46  Trial  31 | Fold 3 | AUC 0.78896 | Avg@3 0.79134
+2025-07-08 17:31:46  Trial 31 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.002218016867230952, 'max_depth': 13, 'num_leaves': 198, 'min_child_samples': 166, 'reg_alpha': 1.1441906096467154, 'reg_lambda': 0.030004034054351272, 'subsample': 0.7761206947112494, 'colsample_bytree': 0.65453837397236, 'n_estimators': 3646}
+
+2025-07-08 17:41:46  Trial  32 | Fold 1 | AUC 0.78970 | Avg@1 0.78970
+2025-07-08 17:51:41  Trial  32 | Fold 2 | AUC 0.79873 | Avg@2 0.79422
+2025-07-08 17:57:47  Trial  32 | Fold 3 | AUC 0.79031 | Avg@3 0.79291
+2025-07-08 17:57:47  Trial 32 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0027254784720899456, 'max_depth': 15, 'num_leaves': 181, 'min_child_samples': 162, 'reg_alpha': 1.035467793282462, 'reg_lambda': 0.03689029920038216, 'subsample': 0.8472364337932854, 'colsample_bytree': 0.5583689596238632, 'n_estimators': 4256}
+
+2025-07-08 18:04:26  Trial  33 | Fold 1 | AUC 0.78785 | Avg@1 0.78785
+2025-07-08 18:11:02  Trial  33 | Fold 2 | AUC 0.79644 | Avg@2 0.79215
+2025-07-08 18:17:43  Trial  33 | Fold 3 | AUC 0.78872 | Avg@3 0.79101
+2025-07-08 18:17:43  Trial 33 pruned at fold 3
+
+2025-07-08 18:23:12  Trial  34 | Fold 1 | AUC 0.78826 | Avg@1 0.78826
+2025-07-08 18:28:34  Trial  34 | Fold 2 | AUC 0.79536 | Avg@2 0.79181
+2025-07-08 18:34:06  Trial  34 | Fold 3 | AUC 0.78752 | Avg@3 0.79038
+2025-07-08 18:34:06  Trial 34 pruned at fold 3
+
+2025-07-08 18:39:39  Trial  35 | Fold 1 | AUC 0.78844 | Avg@1 0.78844
+2025-07-08 18:45:07  Trial  35 | Fold 2 | AUC 0.79704 | Avg@2 0.79274
+2025-07-08 18:50:44  Trial  35 | Fold 3 | AUC 0.78912 | Avg@3 0.79153
+2025-07-08 18:50:44  Trial 35 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0017663113063172322, 'max_depth': 14, 'num_leaves': 214, 'min_child_samples': 173, 'reg_alpha': 0.13696316330860922, 'reg_lambda': 0.030619599182188786, 'subsample': 0.8843746306925315, 'colsample_bytree': 0.472805881553154, 'n_estimators': 4237}
+
+2025-07-08 18:56:29  Trial  36 | Fold 1 | AUC 0.78635 | Avg@1 0.78635
+2025-07-08 18:56:29  Trial 36 pruned at fold 1
+
+2025-07-08 19:03:10  Trial  37 | Fold 1 | AUC 0.78920 | Avg@1 0.78920
+2025-07-08 19:09:51  Trial  37 | Fold 2 | AUC 0.79774 | Avg@2 0.79347
+2025-07-08 19:16:48  Trial  37 | Fold 3 | AUC 0.78966 | Avg@3 0.79220
+2025-07-08 19:16:48  Trial 37 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0018302666506592486, 'max_depth': 15, 'num_leaves': 239, 'min_child_samples': 113, 'reg_alpha': 0.14414233252639375, 'reg_lambda': 0.10788140191532153, 'subsample': 0.8833212459394058, 'colsample_bytree': 0.4696787657530326, 'n_estimators': 4777}
+
+2025-07-08 19:22:32  Trial  38 | Fold 1 | AUC 0.78957 | Avg@1 0.78957
+2025-07-08 19:27:56  Trial  38 | Fold 2 | AUC 0.79738 | Avg@2 0.79348
+2025-07-08 19:33:31  Trial  38 | Fold 3 | AUC 0.78934 | Avg@3 0.79210
+2025-07-08 19:33:31  Trial 38 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004537080223635503, 'max_depth': 16, 'num_leaves': 241, 'min_child_samples': 115, 'reg_alpha': 0.2907684343993465, 'reg_lambda': 0.14458482012444185, 'subsample': 0.939497726626529, 'colsample_bytree': 0.4123821171215307, 'n_estimators': 4772}
+
+2025-07-08 19:39:10  Trial  39 | Fold 1 | AUC 0.78894 | Avg@1 0.78894
+2025-07-08 19:44:43  Trial  39 | Fold 2 | AUC 0.79649 | Avg@2 0.79271
+2025-07-08 19:50:32  Trial  39 | Fold 3 | AUC 0.78906 | Avg@3 0.79149
+2025-07-08 19:50:32  Trial 39 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0048849335031425755, 'max_depth': 16, 'num_leaves': 239, 'min_child_samples': 113, 'reg_alpha': 0.0374727279081909, 'reg_lambda': 0.13339341777319166, 'subsample': 0.9496850555974214, 'colsample_bytree': 0.4367001187545289, 'n_estimators': 4814}
+
+2025-07-08 19:56:44  Trial  40 | Fold 1 | AUC 0.78624 | Avg@1 0.78624
+2025-07-08 20:02:53  Trial  40 | Fold 2 | AUC 0.79433 | Avg@2 0.79028
+2025-07-08 20:09:12  Trial  40 | Fold 3 | AUC 0.78620 | Avg@3 0.78892
+2025-07-08 20:09:12  Trial 40 pruned at fold 3
+
+2025-07-08 20:15:10  Trial  41 | Fold 1 | AUC 0.78970 | Avg@1 0.78970
+2025-07-08 20:21:05  Trial  41 | Fold 2 | AUC 0.79709 | Avg@2 0.79340
+2025-07-08 20:27:12  Trial  41 | Fold 3 | AUC 0.79044 | Avg@3 0.79241
+2025-07-08 20:27:12  Trial 41 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003486077205406326, 'max_depth': 15, 'num_leaves': 219, 'min_child_samples': 119, 'reg_alpha': 0.06771454952879315, 'reg_lambda': 0.08058112503871769, 'subsample': 0.8992573718311919, 'colsample_bytree': 0.5025572500969667, 'n_estimators': 4634}
+
+2025-07-08 20:33:37  Trial  42 | Fold 1 | AUC 0.78946 | Avg@1 0.78946
+2025-07-08 20:39:56  Trial  42 | Fold 2 | AUC 0.79686 | Avg@2 0.79316
+2025-07-08 20:46:29  Trial  42 | Fold 3 | AUC 0.79004 | Avg@3 0.79212
+2025-07-08 20:46:29  Trial 42 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0038374625650630075, 'max_depth': 15, 'num_leaves': 223, 'min_child_samples': 133, 'reg_alpha': 0.059102614048280544, 'reg_lambda': 0.07327234233007525, 'subsample': 0.896672014684107, 'colsample_bytree': 0.5517841313735343, 'n_estimators': 4807}
+
+2025-07-08 20:52:15  Trial  43 | Fold 1 | AUC 0.78953 | Avg@1 0.78953
+2025-07-08 20:57:58  Trial  43 | Fold 2 | AUC 0.79816 | Avg@2 0.79385
+2025-07-08 21:03:51  Trial  43 | Fold 3 | AUC 0.78983 | Avg@3 0.79251
+2025-07-08 21:03:51  Trial 43 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003744168658495414, 'max_depth': 15, 'num_leaves': 225, 'min_child_samples': 136, 'reg_alpha': 0.017025586189152325, 'reg_lambda': 0.09078408820786878, 'subsample': 0.8975057855579618, 'colsample_bytree': 0.5860656703007736, 'n_estimators': 3931}
+
+2025-07-08 21:08:57  Trial  44 | Fold 1 | AUC 0.78962 | Avg@1 0.78962
+2025-07-08 21:13:58  Trial  44 | Fold 2 | AUC 0.79778 | Avg@2 0.79370
+2025-07-08 21:19:09  Trial  44 | Fold 3 | AUC 0.79042 | Avg@3 0.79261
+2025-07-08 21:19:09  Trial 44 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0032433068469680405, 'max_depth': 14, 'num_leaves': 181, 'min_child_samples': 158, 'reg_alpha': 0.018243590165929004, 'reg_lambda': 0.2173223979104708, 'subsample': 0.8703610706631837, 'colsample_bytree': 0.5652649965232769, 'n_estimators': 3906}
+
+2025-07-08 21:24:17  Trial  45 | Fold 1 | AUC 0.78970 | Avg@1 0.78970
+2025-07-08 21:29:23  Trial  45 | Fold 2 | AUC 0.79812 | Avg@2 0.79391
+2025-07-08 21:34:37  Trial  45 | Fold 3 | AUC 0.79046 | Avg@3 0.79276
+2025-07-08 21:34:37  Trial 45 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003355967079425426, 'max_depth': 14, 'num_leaves': 182, 'min_child_samples': 158, 'reg_alpha': 0.013824017182465584, 'reg_lambda': 0.2358575915023018, 'subsample': 0.85978549632848, 'colsample_bytree': 0.5761791071183888, 'n_estimators': 3874}
+
+2025-07-08 21:56:54  Trial  46 | Fold 1 | AUC 0.77714 | Avg@1 0.77714
+2025-07-08 21:56:54  Trial 46 pruned at fold 1
+
+2025-07-08 21:58:53  Trial  47 | Fold 1 | AUC 0.77907 | Avg@1 0.77907
+2025-07-08 21:58:53  Trial 47 pruned at fold 1
+
+2025-07-08 22:03:54  Trial  48 | Fold 1 | AUC 0.78973 | Avg@1 0.78973
+2025-07-08 22:08:55  Trial  48 | Fold 2 | AUC 0.79656 | Avg@2 0.79314
+2025-07-08 22:14:04  Trial  48 | Fold 3 | AUC 0.78904 | Avg@3 0.79178
+2025-07-08 22:14:04  Trial 48 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.006463597260545754, 'max_depth': 16, 'num_leaves': 204, 'min_child_samples': 161, 'reg_alpha': 0.006375409121625444, 'reg_lambda': 3.5408585301077946, 'subsample': 0.8426408009354823, 'colsample_bytree': 0.6336214120440143, 'n_estimators': 3327}
+
+2025-07-08 22:17:27  Trial  49 | Fold 1 | AUC 0.78794 | Avg@1 0.78794
+2025-07-08 22:20:44  Trial  49 | Fold 2 | AUC 0.79523 | Avg@2 0.79159
+2025-07-08 22:24:09  Trial  49 | Fold 3 | AUC 0.78781 | Avg@3 0.79033
+2025-07-08 22:24:09  Trial 49 pruned at fold 3
+
+2025-07-08 22:46:20  Trial  50 | Fold 1 | AUC 0.77944 | Avg@1 0.77944
+2025-07-08 23:07:57  Trial  50 | Fold 2 | AUC 0.78676 | Avg@2 0.78310
+2025-07-08 23:29:22  Trial  50 | Fold 3 | AUC 0.78012 | Avg@3 0.78211
+2025-07-08 23:29:22  Trial 50 pruned at fold 3
+
+2025-07-08 23:34:30  Trial  51 | Fold 1 | AUC 0.76766 | Avg@1 0.76766
+2025-07-08 23:34:30  Trial 51 pruned at fold 1
+
+2025-07-08 23:38:54  Trial  52 | Fold 1 | AUC 0.79028 | Avg@1 0.79028
+2025-07-08 23:43:16  Trial  52 | Fold 2 | AUC 0.79820 | Avg@2 0.79424
+2025-07-08 23:47:46  Trial  52 | Fold 3 | AUC 0.79080 | Avg@3 0.79309
+2025-07-08 23:47:46  Trial 52 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0034593603653117824, 'max_depth': 14, 'num_leaves': 187, 'min_child_samples': 180, 'reg_alpha': 0.06450920178655851, 'reg_lambda': 0.05668204626556524, 'subsample': 0.9775348030313893, 'colsample_bytree': 0.5192888097104905, 'n_estimators': 3811}
+
+2025-07-08 23:52:23  Trial  53 | Fold 1 | AUC 0.78915 | Avg@1 0.78915
+2025-07-08 23:56:56  Trial  53 | Fold 2 | AUC 0.79827 | Avg@2 0.79371
+2025-07-09 00:01:38  Trial  53 | Fold 3 | AUC 0.79000 | Avg@3 0.79247
+2025-07-09 00:01:38  Trial 53 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.002583288456404213, 'max_depth': 14, 'num_leaves': 178, 'min_child_samples': 180, 'reg_alpha': 0.006825883807800396, 'reg_lambda': 0.0487773593868531, 'subsample': 0.9806278422612968, 'colsample_bytree': 0.5378560096554632, 'n_estimators': 3712}
+
+2025-07-09 00:06:39  Trial  54 | Fold 1 | AUC 0.78925 | Avg@1 0.78925
+2025-07-09 00:11:38  Trial  54 | Fold 2 | AUC 0.79759 | Avg@2 0.79342
+2025-07-09 00:16:45  Trial  54 | Fold 3 | AUC 0.79032 | Avg@3 0.79239
+2025-07-09 00:16:45  Trial 54 pruned at fold 3
+
+2025-07-09 00:21:45  Trial  55 | Fold 1 | AUC 0.78878 | Avg@1 0.78878
+2025-07-09 00:26:42  Trial  55 | Fold 2 | AUC 0.79704 | Avg@2 0.79291
+2025-07-09 00:31:50  Trial  55 | Fold 3 | AUC 0.78905 | Avg@3 0.79162
+2025-07-09 00:31:50  Trial 55 pruned at fold 3
+
+2025-07-09 00:35:50  Trial  56 | Fold 1 | AUC 0.78867 | Avg@1 0.78867
+2025-07-09 00:39:44  Trial  56 | Fold 2 | AUC 0.79503 | Avg@2 0.79185
+2025-07-09 00:43:48  Trial  56 | Fold 3 | AUC 0.78767 | Avg@3 0.79046
+2025-07-09 00:43:48  Trial 56 pruned at fold 3
+
+2025-07-09 00:47:38  Trial  57 | Fold 1 | AUC 0.78952 | Avg@1 0.78952
+2025-07-09 00:51:24  Trial  57 | Fold 2 | AUC 0.79813 | Avg@2 0.79383
+2025-07-09 00:55:17  Trial  57 | Fold 3 | AUC 0.79043 | Avg@3 0.79270
+2025-07-09 00:55:17  Trial 57 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0030770414243347925, 'max_depth': 13, 'num_leaves': 151, 'min_child_samples': 170, 'reg_alpha': 0.0010337788938647584, 'reg_lambda': 0.020688093960958987, 'subsample': 0.9209984709145128, 'colsample_bytree': 0.49299737829529056, 'n_estimators': 3524}
+
+2025-07-09 00:58:55  Trial  58 | Fold 1 | AUC 0.78864 | Avg@1 0.78864
+2025-07-09 01:02:28  Trial  58 | Fold 2 | AUC 0.79736 | Avg@2 0.79300
+2025-07-09 01:06:08  Trial  58 | Fold 3 | AUC 0.78991 | Avg@3 0.79197
+2025-07-09 01:06:08  Trial 58 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0029896909660891593, 'max_depth': 13, 'num_leaves': 124, 'min_child_samples': 144, 'reg_alpha': 0.0014911263095905478, 'reg_lambda': 0.017316792690249994, 'subsample': 0.9705799961427781, 'colsample_bytree': 0.5586486593758425, 'n_estimators': 3155}
+
+2025-07-09 01:10:19  Trial  59 | Fold 1 | AUC 0.78921 | Avg@1 0.78921
+2025-07-09 01:14:29  Trial  59 | Fold 2 | AUC 0.79745 | Avg@2 0.79333
+2025-07-09 01:18:45  Trial  59 | Fold 3 | AUC 0.79005 | Avg@3 0.79224
+2025-07-09 01:18:45  Trial 59 pruned at fold 3
+
+2025-07-09 01:31:06  Trial  60 | Fold 1 | AUC 0.76847 | Avg@1 0.76847
+2025-07-09 01:43:24  Trial  60 | Fold 2 | AUC 0.77537 | Avg@2 0.77192
+2025-07-09 01:55:50  Trial  60 | Fold 3 | AUC 0.76830 | Avg@3 0.77071
+2025-07-09 01:55:50  Trial 60 pruned at fold 3
+
+2025-07-09 02:00:07  Trial  61 | Fold 1 | AUC 0.78943 | Avg@1 0.78943
+2025-07-09 02:04:20  Trial  61 | Fold 2 | AUC 0.79825 | Avg@2 0.79384
+2025-07-09 02:08:42  Trial  61 | Fold 3 | AUC 0.79031 | Avg@3 0.79267
+2025-07-09 02:08:42  Trial 61 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0024580974847506127, 'max_depth': 14, 'num_leaves': 106, 'min_child_samples': 183, 'reg_alpha': 0.08971985841528464, 'reg_lambda': 0.036469849191810594, 'subsample': 0.9114215083592756, 'colsample_bytree': 0.49469782384099686, 'n_estimators': 4284}
+
+2025-07-09 02:12:39  Trial  62 | Fold 1 | AUC 0.78966 | Avg@1 0.78966
+2025-07-09 02:16:32  Trial  62 | Fold 2 | AUC 0.79880 | Avg@2 0.79423
+2025-07-09 02:20:34  Trial  62 | Fold 3 | AUC 0.79073 | Avg@3 0.79306
+2025-07-09 02:20:34  Trial 62 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003063216469927159, 'max_depth': 14, 'num_leaves': 101, 'min_child_samples': 163, 'reg_alpha': 0.08371427533278794, 'reg_lambda': 0.024473423929044637, 'subsample': 0.9158713632064296, 'colsample_bytree': 0.5099585227353706, 'n_estimators': 4013}
+
+2025-07-09 02:24:44  Trial  63 | Fold 1 | AUC 0.78990 | Avg@1 0.78990
+2025-07-09 02:28:50  Trial  63 | Fold 2 | AUC 0.79867 | Avg@2 0.79428
+2025-07-09 02:33:05  Trial  63 | Fold 3 | AUC 0.79115 | Avg@3 0.79324
+2025-07-09 02:33:05  Trial 63 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003207491179853277, 'max_depth': 13, 'num_leaves': 110, 'min_child_samples': 168, 'reg_alpha': 0.07528652614533177, 'reg_lambda': 0.02085616389452768, 'subsample': 0.9090852586374447, 'colsample_bytree': 0.5030567739614683, 'n_estimators': 4262}
+
+2025-07-09 02:37:03  Trial  64 | Fold 1 | AUC 0.78931 | Avg@1 0.78931
+2025-07-09 02:40:57  Trial  64 | Fold 2 | AUC 0.79851 | Avg@2 0.79391
+2025-07-09 02:44:59  Trial  64 | Fold 3 | AUC 0.79045 | Avg@3 0.79276
+2025-07-09 02:44:59  Trial 64 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.002458317102268849, 'max_depth': 13, 'num_leaves': 101, 'min_child_samples': 196, 'reg_alpha': 0.0878169201371964, 'reg_lambda': 0.02063709255791356, 'subsample': 0.9142599508487821, 'colsample_bytree': 0.4432073599846733, 'n_estimators': 4328}
+
+2025-07-09 02:48:41  Trial  65 | Fold 1 | AUC 0.78878 | Avg@1 0.78878
+2025-07-09 02:52:18  Trial  65 | Fold 2 | AUC 0.79791 | Avg@2 0.79335
+2025-07-09 02:56:04  Trial  65 | Fold 3 | AUC 0.78976 | Avg@3 0.79215
+2025-07-09 02:56:04  Trial 65 pruned at fold 3
+
+2025-07-09 03:00:13  Trial  66 | Fold 1 | AUC 0.78970 | Avg@1 0.78970
+2025-07-09 03:04:17  Trial  66 | Fold 2 | AUC 0.79829 | Avg@2 0.79400
+2025-07-09 03:08:31  Trial  66 | Fold 3 | AUC 0.79063 | Avg@3 0.79288
+2025-07-09 03:08:31  Trial 66 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.002867088006483718, 'max_depth': 12, 'num_leaves': 92, 'min_child_samples': 167, 'reg_alpha': 0.028842018683125997, 'reg_lambda': 0.024422880540635378, 'subsample': 0.9720488304212169, 'colsample_bytree': 0.5226951167734931, 'n_estimators': 4422}
+
+2025-07-09 03:13:29  Trial  67 | Fold 1 | AUC 0.78654 | Avg@1 0.78654
+2025-07-09 03:13:29  Trial 67 pruned at fold 1
+
+2025-07-09 03:17:49  Trial  68 | Fold 1 | AUC 0.78401 | Avg@1 0.78401
+2025-07-09 03:17:49  Trial 68 pruned at fold 1
+
+2025-07-09 03:18:31  Trial  69 | Fold 1 | AUC 0.77469 | Avg@1 0.77469
+2025-07-09 03:18:31  Trial 69 pruned at fold 1
+
+2025-07-09 03:22:02  Trial  70 | Fold 1 | AUC 0.78984 | Avg@1 0.78984
+2025-07-09 03:25:30  Trial  70 | Fold 2 | AUC 0.79824 | Avg@2 0.79404
+2025-07-09 03:29:05  Trial  70 | Fold 3 | AUC 0.79107 | Avg@3 0.79305
+2025-07-09 03:29:05  Trial 70 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004300042311803608, 'max_depth': 10, 'num_leaves': 115, 'min_child_samples': 179, 'reg_alpha': 0.04467281519329615, 'reg_lambda': 0.013918260574281196, 'subsample': 0.8373216942686377, 'colsample_bytree': 0.454972557518628, 'n_estimators': 4297}
+
+2025-07-09 03:32:34  Trial  71 | Fold 1 | AUC 0.79019 | Avg@1 0.79019
+2025-07-09 03:35:58  Trial  71 | Fold 2 | AUC 0.79856 | Avg@2 0.79437
+2025-07-09 03:39:31  Trial  71 | Fold 3 | AUC 0.79090 | Avg@3 0.79322
+2025-07-09 03:39:31  Trial 71 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004409017591780417, 'max_depth': 10, 'num_leaves': 116, 'min_child_samples': 165, 'reg_alpha': 0.048275808297808434, 'reg_lambda': 0.012462396013462147, 'subsample': 0.8364500216017208, 'colsample_bytree': 0.44992177424179425, 'n_estimators': 4240}
+
+2025-07-09 03:42:55  Trial  72 | Fold 1 | AUC 0.78981 | Avg@1 0.78981
+2025-07-09 03:46:16  Trial  72 | Fold 2 | AUC 0.79814 | Avg@2 0.79397
+2025-07-09 03:49:44  Trial  72 | Fold 3 | AUC 0.79087 | Avg@3 0.79294
+2025-07-09 03:49:44  Trial 72 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0045095502701512765, 'max_depth': 10, 'num_leaves': 115, 'min_child_samples': 177, 'reg_alpha': 0.028787228018670553, 'reg_lambda': 0.012163776104780838, 'subsample': 0.8038276487346797, 'colsample_bytree': 0.47691688929910936, 'n_estimators': 4060}
+
+2025-07-09 03:53:31  Trial  73 | Fold 1 | AUC 0.79029 | Avg@1 0.79029
+2025-07-09 03:57:13  Trial  73 | Fold 2 | AUC 0.79825 | Avg@2 0.79427
+2025-07-09 04:01:04  Trial  73 | Fold 3 | AUC 0.79100 | Avg@3 0.79318
+2025-07-09 04:01:04  Trial 73 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004173482165557972, 'max_depth': 10, 'num_leaves': 114, 'min_child_samples': 178, 'reg_alpha': 0.046946710157482176, 'reg_lambda': 0.007918586187866178, 'subsample': 0.8381805321085395, 'colsample_bytree': 0.474296759912917, 'n_estimators': 4548}
+
+2025-07-09 04:04:22  Trial  74 | Fold 1 | AUC 0.78887 | Avg@1 0.78887
+2025-07-09 04:04:22  Trial 74 pruned at fold 1
+
+2025-07-09 04:07:45  Trial  75 | Fold 1 | AUC 0.78992 | Avg@1 0.78992
+2025-07-09 04:11:04  Trial  75 | Fold 2 | AUC 0.79854 | Avg@2 0.79423
+2025-07-09 04:14:32  Trial  75 | Fold 3 | AUC 0.79124 | Avg@3 0.79323
+2025-07-09 04:14:32  Trial 75 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004202274373522771, 'max_depth': 9, 'num_leaves': 114, 'min_child_samples': 187, 'reg_alpha': 0.04980514142537851, 'reg_lambda': 0.007575464422740825, 'subsample': 0.7903247432018851, 'colsample_bytree': 0.4264810777061099, 'n_estimators': 4545}
+
+2025-07-09 04:18:21  Trial  76 | Fold 1 | AUC 0.78192 | Avg@1 0.78192
+2025-07-09 04:18:21  Trial 76 pruned at fold 1
+
+2025-07-09 04:21:22  Trial  77 | Fold 1 | AUC 0.78972 | Avg@1 0.78972
+2025-07-09 04:24:18  Trial  77 | Fold 2 | AUC 0.79797 | Avg@2 0.79384
+2025-07-09 04:27:21  Trial  77 | Fold 3 | AUC 0.79136 | Avg@3 0.79302
+2025-07-09 04:27:21  Trial 77 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004173244218145593, 'max_depth': 9, 'num_leaves': 127, 'min_child_samples': 188, 'reg_alpha': 0.026903739805439898, 'reg_lambda': 0.0013958309587060176, 'subsample': 0.7295013489075677, 'colsample_bytree': 0.4005705912334625, 'n_estimators': 4024}
+
+2025-07-09 04:30:25  Trial  78 | Fold 1 | AUC 0.78962 | Avg@1 0.78962
+2025-07-09 04:33:23  Trial  78 | Fold 2 | AUC 0.79796 | Avg@2 0.79379
+2025-07-09 04:36:28  Trial  78 | Fold 3 | AUC 0.79048 | Avg@3 0.79269
+2025-07-09 04:36:28  Trial 78 pruned at fold 3
+
+2025-07-09 04:40:06  Trial  79 | Fold 1 | AUC 0.78940 | Avg@1 0.78940
+2025-07-09 04:43:38  Trial  79 | Fold 2 | AUC 0.79812 | Avg@2 0.79376
+2025-07-09 04:47:20  Trial  79 | Fold 3 | AUC 0.79118 | Avg@3 0.79290
+2025-07-09 04:47:20  Trial 79 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004247115533005567, 'max_depth': 9, 'num_leaves': 129, 'min_child_samples': 174, 'reg_alpha': 0.14592559478560305, 'reg_lambda': 0.008238675790567395, 'subsample': 0.7646694746412651, 'colsample_bytree': 0.4539270188622095, 'n_estimators': 4655}
+
+2025-07-09 05:02:59  Trial  80 | Fold 1 | AUC 0.78187 | Avg@1 0.78187
+2025-07-09 05:02:59  Trial 80 pruned at fold 1
+
+2025-07-09 05:06:28  Trial  81 | Fold 1 | AUC 0.78988 | Avg@1 0.78988
+2025-07-09 05:09:53  Trial  81 | Fold 2 | AUC 0.79818 | Avg@2 0.79403
+2025-07-09 05:13:25  Trial  81 | Fold 3 | AUC 0.79108 | Avg@3 0.79305
+2025-07-09 05:13:25  Trial 81 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004361113242761754, 'max_depth': 10, 'num_leaves': 137, 'min_child_samples': 177, 'reg_alpha': 0.027507347437790902, 'reg_lambda': 0.014608223556356473, 'subsample': 0.7924842782070876, 'colsample_bytree': 0.4782070232934459, 'n_estimators': 4052}
+
+2025-07-09 05:16:33  Trial  82 | Fold 1 | AUC 0.79027 | Avg@1 0.79027
+2025-07-09 05:19:37  Trial  82 | Fold 2 | AUC 0.79851 | Avg@2 0.79439
+2025-07-09 05:22:47  Trial  82 | Fold 3 | AUC 0.79118 | Avg@3 0.79332
+2025-07-09 05:22:47  Trial 82 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.005063310658736113, 'max_depth': 10, 'num_leaves': 140, 'min_child_samples': 188, 'reg_alpha': 0.03614093978848296, 'reg_lambda': 0.004858781434105117, 'subsample': 0.7920905592202883, 'colsample_bytree': 0.40073844269999664, 'n_estimators': 4029}
+
+2025-07-09 05:26:17  Trial  83 | Fold 1 | AUC 0.78986 | Avg@1 0.78986
+2025-07-09 05:29:43  Trial  83 | Fold 2 | AUC 0.79795 | Avg@2 0.79390
+2025-07-09 05:33:15  Trial  83 | Fold 3 | AUC 0.79093 | Avg@3 0.79291
+2025-07-09 05:33:15  Trial 83 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.005179283887681069, 'max_depth': 10, 'num_leaves': 137, 'min_child_samples': 178, 'reg_alpha': 0.009593742967221666, 'reg_lambda': 0.014104934833427831, 'subsample': 0.7876842209357163, 'colsample_bytree': 0.482127643654377, 'n_estimators': 4174}
+
+2025-07-09 05:37:36  Trial  84 | Fold 1 | AUC 0.78863 | Avg@1 0.78863
+2025-07-09 05:41:53  Trial  84 | Fold 2 | AUC 0.79619 | Avg@2 0.79241
+2025-07-09 05:46:19  Trial  84 | Fold 3 | AUC 0.78963 | Avg@3 0.79148
+2025-07-09 05:46:19  Trial 84 pruned at fold 3
+
+2025-07-09 05:49:54  Trial  85 | Fold 1 | AUC 0.78935 | Avg@1 0.78935
+2025-07-09 05:49:54  Trial 85 pruned at fold 1
+
+2025-07-09 05:53:33  Trial  86 | Fold 1 | AUC 0.79041 | Avg@1 0.79041
+2025-07-09 05:57:07  Trial  86 | Fold 2 | AUC 0.79836 | Avg@2 0.79438
+2025-07-09 06:00:50  Trial  86 | Fold 3 | AUC 0.79040 | Avg@3 0.79305
+2025-07-09 06:00:50  Trial 86 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.006556828751217302, 'max_depth': 10, 'num_leaves': 117, 'min_child_samples': 153, 'reg_alpha': 0.20182289332664266, 'reg_lambda': 89.20128452622025, 'subsample': 0.8208351447345297, 'colsample_bytree': 0.43172910700847583, 'n_estimators': 4547}
+
+2025-07-09 06:04:41  Trial  87 | Fold 1 | AUC 0.79000 | Avg@1 0.79000
+2025-07-09 06:08:27  Trial  87 | Fold 2 | AUC 0.79715 | Avg@2 0.79357
+2025-07-09 06:12:21  Trial  87 | Fold 3 | AUC 0.78981 | Avg@3 0.79232
+2025-07-09 06:12:21  Trial 87 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.00739181443837217, 'max_depth': 11, 'num_leaves': 118, 'min_child_samples': 153, 'reg_alpha': 0.18233997661886764, 'reg_lambda': 57.45831012803833, 'subsample': 0.8258464294984121, 'colsample_bytree': 0.4399210353655756, 'n_estimators': 4573}
+
+2025-07-09 06:15:27  Trial  88 | Fold 1 | AUC 0.78841 | Avg@1 0.78841
+2025-07-09 06:15:27  Trial 88 pruned at fold 1
+
+2025-07-09 06:18:57  Trial  89 | Fold 1 | AUC 0.78891 | Avg@1 0.78891
+2025-07-09 06:22:21  Trial  89 | Fold 2 | AUC 0.79673 | Avg@2 0.79282
+2025-07-09 06:25:55  Trial  89 | Fold 3 | AUC 0.78989 | Avg@3 0.79184
+2025-07-09 06:25:55  Trial 89 pruned at fold 3
+
+2025-07-09 06:31:53  Trial  90 | Fold 1 | AUC 0.78898 | Avg@1 0.78898
+2025-07-09 06:37:53  Trial  90 | Fold 2 | AUC 0.79571 | Avg@2 0.79235
+2025-07-09 06:43:54  Trial  90 | Fold 3 | AUC 0.78931 | Avg@3 0.79134
+2025-07-09 06:43:54  Trial 90 pruned at fold 3
+
+2025-07-09 06:47:14  Trial  91 | Fold 1 | AUC 0.78985 | Avg@1 0.78985
+2025-07-09 06:50:30  Trial  91 | Fold 2 | AUC 0.79845 | Avg@2 0.79415
+2025-07-09 06:53:54  Trial  91 | Fold 3 | AUC 0.79095 | Avg@3 0.79309
+2025-07-09 06:53:54  Trial 91 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0045094543901042766, 'max_depth': 10, 'num_leaves': 122, 'min_child_samples': 179, 'reg_alpha': 0.02347481960803316, 'reg_lambda': 0.014945659985857906, 'subsample': 0.7983120342304888, 'colsample_bytree': 0.4462536968579614, 'n_estimators': 4084}
+
+2025-07-09 06:59:39  Trial  92 | Fold 1 | AUC 0.78843 | Avg@1 0.78843
+2025-07-09 06:59:39  Trial 92 pruned at fold 1
+
+2025-07-09 07:03:06  Trial  93 | Fold 1 | AUC 0.78945 | Avg@1 0.78945
+2025-07-09 07:06:28  Trial  93 | Fold 2 | AUC 0.79780 | Avg@2 0.79362
+2025-07-09 07:09:59  Trial  93 | Fold 3 | AUC 0.79046 | Avg@3 0.79257
+2025-07-09 07:09:59  Trial 93 pruned at fold 3
+
+2025-07-09 07:12:59  Trial  94 | Fold 1 | AUC 0.78982 | Avg@1 0.78982
+2025-07-09 07:15:54  Trial  94 | Fold 2 | AUC 0.79833 | Avg@2 0.79408
+2025-07-09 07:18:57  Trial  94 | Fold 3 | AUC 0.79092 | Avg@3 0.79302
+2025-07-09 07:18:57  Trial 94 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004825606441044452, 'max_depth': 11, 'num_leaves': 103, 'min_child_samples': 170, 'reg_alpha': 0.05174485103842335, 'reg_lambda': 0.06688206004215924, 'subsample': 0.8704403753305768, 'colsample_bytree': 0.4235606420104822, 'n_estimators': 3626}
+
+2025-07-09 07:22:05  Trial  95 | Fold 1 | AUC 0.78995 | Avg@1 0.78995
+2025-07-09 07:25:10  Trial  95 | Fold 2 | AUC 0.79854 | Avg@2 0.79424
+2025-07-09 07:28:23  Trial  95 | Fold 3 | AUC 0.79050 | Avg@3 0.79300
+2025-07-09 07:28:23  Trial 95 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004018612799591668, 'max_depth': 10, 'num_leaves': 109, 'min_child_samples': 185, 'reg_alpha': 0.02111639673182577, 'reg_lambda': 0.004663184758520988, 'subsample': 0.7518698102456459, 'colsample_bytree': 0.41517716469805493, 'n_estimators': 3965}
+
+2025-07-09 07:31:57  Trial  96 | Fold 1 | AUC 0.78894 | Avg@1 0.78894
+2025-07-09 07:35:28  Trial  96 | Fold 2 | AUC 0.79784 | Avg@2 0.79339
+2025-07-09 07:39:05  Trial  96 | Fold 3 | AUC 0.79092 | Avg@3 0.79257
+2025-07-09 07:39:05  Trial 96 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0031661128863690485, 'max_depth': 9, 'num_leaves': 130, 'min_child_samples': 173, 'reg_alpha': 0.13206427257599124, 'reg_lambda': 0.02846039825377984, 'subsample': 0.7980599272335998, 'colsample_bytree': 0.46678587619539336, 'n_estimators': 4275}
+
+2025-07-09 07:42:19  Trial  97 | Fold 1 | AUC 0.78714 | Avg@1 0.78714
+2025-07-09 07:42:19  Trial 97 pruned at fold 1
+
+2025-07-09 07:45:19  Trial  98 | Fold 1 | AUC 0.78882 | Avg@1 0.78882
+2025-07-09 07:48:14  Trial  98 | Fold 2 | AUC 0.79664 | Avg@2 0.79273
+2025-07-09 07:51:16  Trial  98 | Fold 3 | AUC 0.79002 | Avg@3 0.79182
+2025-07-09 07:51:16  Trial 98 pruned at fold 3
+
+2025-07-09 08:09:20  Trial  99 | Fold 1 | AUC 0.78446 | Avg@1 0.78446
+2025-07-09 08:09:20  Trial 99 pruned at fold 1
+
+2025-07-09 08:12:42  Trial 100 | Fold 1 | AUC 0.78808 | Avg@1 0.78808
+2025-07-09 08:12:42  Trial 100 pruned at fold 1
+
+2025-07-09 08:16:11  Trial 101 | Fold 1 | AUC 0.78960 | Avg@1 0.78960
+2025-07-09 08:19:34  Trial 101 | Fold 2 | AUC 0.79805 | Avg@2 0.79383
+2025-07-09 08:23:05  Trial 101 | Fold 3 | AUC 0.79114 | Avg@3 0.79293
+2025-07-09 08:23:05  Trial 101 pruned at fold 3
+
+2025-07-09 08:26:46  Trial 102 | Fold 1 | AUC 0.78996 | Avg@1 0.78996
+2025-07-09 08:30:22  Trial 102 | Fold 2 | AUC 0.79841 | Avg@2 0.79418
+2025-07-09 08:34:06  Trial 102 | Fold 3 | AUC 0.79097 | Avg@3 0.79311
+2025-07-09 08:34:06  Trial 102 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004596306786880441, 'max_depth': 11, 'num_leaves': 150, 'min_child_samples': 195, 'reg_alpha': 0.016479560637074762, 'reg_lambda': 0.00738048983971077, 'subsample': 0.7907813071195554, 'colsample_bytree': 0.434964736288993, 'n_estimators': 4317}
+
+2025-07-09 08:37:41  Trial 103 | Fold 1 | AUC 0.79014 | Avg@1 0.79014
+2025-07-09 08:41:09  Trial 103 | Fold 2 | AUC 0.79873 | Avg@2 0.79443
+2025-07-09 08:44:46  Trial 103 | Fold 3 | AUC 0.79073 | Avg@3 0.79320
+2025-07-09 08:44:46  Trial 103 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0047789953183888945, 'max_depth': 11, 'num_leaves': 98, 'min_child_samples': 195, 'reg_alpha': 0.01138722458162006, 'reg_lambda': 0.007254539553632711, 'subsample': 0.8094895031225176, 'colsample_bytree': 0.4343961069123205, 'n_estimators': 4449}
+
+2025-07-09 08:48:13  Trial 104 | Fold 1 | AUC 0.78925 | Avg@1 0.78925
+2025-07-09 08:48:13  Trial 104 pruned at fold 1
+
+2025-07-09 08:49:53  Trial 105 | Fold 1 | AUC 0.78823 | Avg@1 0.78823
+2025-07-09 08:51:30  Trial 105 | Fold 2 | AUC 0.79684 | Avg@2 0.79254
+2025-07-09 08:53:12  Trial 105 | Fold 3 | AUC 0.78886 | Avg@3 0.79131
+2025-07-09 08:53:12  Trial 105 pruned at fold 3
+
+2025-07-09 08:57:57  Trial 106 | Fold 1 | AUC 0.79051 | Avg@1 0.79051
+2025-07-09 09:02:42  Trial 106 | Fold 2 | AUC 0.79861 | Avg@2 0.79456
+2025-07-09 09:06:54  Trial 106 | Fold 3 | AUC 0.79109 | Avg@3 0.79340
+2025-07-09 09:06:54  Trial 106 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0035513315751428275, 'max_depth': 11, 'num_leaves': 149, 'min_child_samples': 184, 'reg_alpha': 0.010424325937728591, 'reg_lambda': 0.0019233210821811824, 'subsample': 0.766521650410745, 'colsample_bytree': 0.4108259295587723, 'n_estimators': 4814}
+
+2025-07-09 09:11:32  Trial 107 | Fold 1 | AUC 0.79001 | Avg@1 0.79001
+2025-07-09 09:16:05  Trial 107 | Fold 2 | AUC 0.79868 | Avg@2 0.79435
+
+2025-07-09 09:19:42  === Neue Optuna-Session gestartet ===
+2025-07-09 09:32:06  === Neue Optuna-Session gestartet ===
+2025-07-09 09:36:20  Trial   0 | Fold 1 | AUC 0.79005 | Avg@1 0.79005
+2025-07-09 09:39:49  Trial   0 | Fold 2 | AUC 0.79906 | Avg@2 0.79455
+2025-07-09 09:43:12  Trial   0 | Fold 3 | AUC 0.79122 | Avg@3 0.79344
+2025-07-09 09:43:12  Trial 0 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.00429335314727172, 'max_depth': 13, 'num_leaves': 126, 'min_child_samples': 185, 'reg_alpha': 0.014360473309743656, 'reg_lambda': 0.006424462307861589, 'subsample': 0.773963807275315, 'colsample_bytree': 0.48367559072783584, 'n_estimators': 4248}
+
+2025-07-09 09:46:32  Trial   1 | Fold 1 | AUC 0.79020 | Avg@1 0.79020
+2025-07-09 09:49:44  Trial   1 | Fold 2 | AUC 0.79847 | Avg@2 0.79433
+2025-07-09 09:52:59  Trial   1 | Fold 3 | AUC 0.79093 | Avg@3 0.79320
+2025-07-09 09:52:59  Trial 1 pruned at fold 3
+
+2025-07-09 09:56:09  Trial   2 | Fold 1 | AUC 0.78969 | Avg@1 0.78969
+2025-07-09 09:56:09  Trial 2 pruned at fold 1
+
+2025-07-09 10:00:57  Trial   3 | Fold 1 | AUC 0.79054 | Avg@1 0.79054
+2025-07-09 10:04:53  Trial   3 | Fold 2 | AUC 0.79912 | Avg@2 0.79483
+2025-07-09 10:09:21  Trial   3 | Fold 3 | AUC 0.79135 | Avg@3 0.79367
+2025-07-09 10:09:21  Trial 3 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0031335727235880005, 'max_depth': 13, 'num_leaves': 100, 'min_child_samples': 191, 'reg_alpha': 0.037036865048284115, 'reg_lambda': 0.0021849671286405664, 'subsample': 0.8476213315586094, 'colsample_bytree': 0.444071532621635, 'n_estimators': 5339}
+
+2025-07-09 10:12:36  Trial   4 | Fold 1 | AUC 0.79010 | Avg@1 0.79010
+2025-07-09 10:12:36  Trial 4 pruned at fold 1
+
+2025-07-09 10:16:58  Trial   5 | Fold 1 | AUC 0.78975 | Avg@1 0.78975
+2025-07-09 10:21:04  Trial   5 | Fold 2 | AUC 0.79778 | Avg@2 0.79377
+2025-07-09 10:25:42  Trial   5 | Fold 3 | AUC 0.79074 | Avg@3 0.79276
+2025-07-09 10:25:42  Trial 5 pruned at fold 3
+
+2025-07-09 10:29:39  Trial   6 | Fold 1 | AUC 0.79027 | Avg@1 0.79027
+2025-07-09 10:32:58  Trial   6 | Fold 2 | AUC 0.79852 | Avg@2 0.79439
+2025-07-09 10:36:44  Trial   6 | Fold 3 | AUC 0.79101 | Avg@3 0.79326
+2025-07-09 10:36:44  Trial 6 pruned at fold 3
+
+2025-07-09 10:40:05  Trial   7 | Fold 1 | AUC 0.78993 | Avg@1 0.78993
+2025-07-09 10:43:03  Trial   7 | Fold 2 | AUC 0.79844 | Avg@2 0.79419
+2025-07-09 10:46:06  Trial   7 | Fold 3 | AUC 0.79105 | Avg@3 0.79314
+2025-07-09 10:46:06  Trial 7 pruned at fold 3
+
+2025-07-09 10:49:51  Trial   8 | Fold 1 | AUC 0.78983 | Avg@1 0.78983
+2025-07-09 10:53:23  Trial   8 | Fold 2 | AUC 0.79865 | Avg@2 0.79424
+2025-07-09 10:56:59  Trial   8 | Fold 3 | AUC 0.79095 | Avg@3 0.79314
+2025-07-09 10:56:59  Trial 8 pruned at fold 3
+
+2025-07-09 11:00:39  Trial   9 | Fold 1 | AUC 0.79001 | Avg@1 0.79001
+2025-07-09 11:03:36  Trial   9 | Fold 2 | AUC 0.79854 | Avg@2 0.79427
+2025-07-09 11:06:22  Trial   9 | Fold 3 | AUC 0.79115 | Avg@3 0.79323
+2025-07-09 11:06:22  Trial 9 pruned at fold 3
+
+2025-07-09 11:10:29  Trial  10 | Fold 1 | AUC 0.79015 | Avg@1 0.79015
+2025-07-09 11:14:30  Trial  10 | Fold 2 | AUC 0.79853 | Avg@2 0.79434
+2025-07-09 11:18:40  Trial  10 | Fold 3 | AUC 0.79098 | Avg@3 0.79322
+2025-07-09 11:18:40  Trial 10 pruned at fold 3
+
+2025-07-09 11:22:47  Trial  11 | Fold 1 | AUC 0.79021 | Avg@1 0.79021
+2025-07-09 11:25:59  Trial  11 | Fold 2 | AUC 0.79849 | Avg@2 0.79435
+2025-07-09 11:30:02  Trial  11 | Fold 3 | AUC 0.79127 | Avg@3 0.79333
+2025-07-09 11:30:02  Trial 11 pruned at fold 3
+
+2025-07-09 11:34:24  Trial  12 | Fold 1 | AUC 0.79022 | Avg@1 0.79022
+2025-07-09 11:38:07  Trial  12 | Fold 2 | AUC 0.79872 | Avg@2 0.79447
+2025-07-09 11:41:56  Trial  12 | Fold 3 | AUC 0.79075 | Avg@3 0.79323
+2025-07-09 11:41:56  Trial 12 pruned at fold 3
+
+2025-07-09 11:45:33  Trial  13 | Fold 1 | AUC 0.79038 | Avg@1 0.79038
+2025-07-09 11:48:45  Trial  13 | Fold 2 | AUC 0.79919 | Avg@2 0.79478
+2025-07-09 11:52:34  Trial  13 | Fold 3 | AUC 0.79125 | Avg@3 0.79360
+2025-07-09 11:52:34  Trial 13 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004234060723955736, 'max_depth': 13, 'num_leaves': 107, 'min_child_samples': 190, 'reg_alpha': 0.04966923614646915, 'reg_lambda': 0.00310496044689629, 'subsample': 0.8337925482375179, 'colsample_bytree': 0.4607308305484109, 'n_estimators': 4422}
+
+2025-07-09 11:56:38  Trial  14 | Fold 1 | AUC 0.78996 | Avg@1 0.78996
+2025-07-09 12:00:37  Trial  14 | Fold 2 | AUC 0.79865 | Avg@2 0.79431
+2025-07-09 12:04:24  Trial  14 | Fold 3 | AUC 0.79094 | Avg@3 0.79318
+2025-07-09 12:04:24  Trial 14 pruned at fold 3
+
+2025-07-09 12:07:16  Trial  15 | Fold 1 | AUC 0.79064 | Avg@1 0.79064
+2025-07-09 12:09:28  Trial  15 | Fold 2 | AUC 0.79891 | Avg@2 0.79477
+2025-07-09 12:11:59  Trial  15 | Fold 3 | AUC 0.79136 | Avg@3 0.79364
+2025-07-09 12:11:59  Trial 15 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.00547415814000342, 'max_depth': 13, 'num_leaves': 107, 'min_child_samples': 191, 'reg_alpha': 0.021525963636035414, 'reg_lambda': 0.001701310130062857, 'subsample': 0.8368894258532753, 'colsample_bytree': 0.42017823506478175, 'n_estimators': 4970}
+
+2025-07-09 12:14:36  Trial  16 | Fold 1 | AUC 0.79023 | Avg@1 0.79023
+2025-07-09 12:16:56  Trial  16 | Fold 2 | AUC 0.79840 | Avg@2 0.79431
+2025-07-09 12:19:28  Trial  16 | Fold 3 | AUC 0.79101 | Avg@3 0.79321
+2025-07-09 12:19:28  Trial 16 pruned at fold 3
+
+2025-07-09 12:23:33  Trial  17 | Fold 1 | AUC 0.79040 | Avg@1 0.79040
+2025-07-09 12:27:15  Trial  17 | Fold 2 | AUC 0.79912 | Avg@2 0.79476
+2025-07-09 12:31:37  Trial  17 | Fold 3 | AUC 0.79131 | Avg@3 0.79361
+2025-07-09 12:31:37  Trial 17 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003291091022685001, 'max_depth': 12, 'num_leaves': 103, 'min_child_samples': 193, 'reg_alpha': 0.021777371920474704, 'reg_lambda': 0.0015751131672764119, 'subsample': 0.8793509539038868, 'colsample_bytree': 0.4125123206271519, 'n_estimators': 5091}
+
+2025-07-09 12:34:40  Trial  18 | Fold 1 | AUC 0.78999 | Avg@1 0.78999
+2025-07-09 12:37:44  Trial  18 | Fold 2 | AUC 0.79836 | Avg@2 0.79417
+2025-07-09 12:41:13  Trial  18 | Fold 3 | AUC 0.79085 | Avg@3 0.79306
+2025-07-09 12:41:13  Trial 18 pruned at fold 3
+
+2025-07-09 12:43:54  Trial  19 | Fold 1 | AUC 0.78981 | Avg@1 0.78981
+2025-07-09 12:43:54  Trial 19 pruned at fold 1
+
+2025-07-09 12:46:34  Trial  20 | Fold 1 | AUC 0.78988 | Avg@1 0.78988
+2025-07-09 12:46:34  Trial 20 pruned at fold 1
+
+2025-07-09 12:50:41  Trial  21 | Fold 1 | AUC 0.79034 | Avg@1 0.79034
+2025-07-09 12:54:23  Trial  21 | Fold 2 | AUC 0.79884 | Avg@2 0.79459
+2025-07-09 12:58:13  Trial  21 | Fold 3 | AUC 0.79152 | Avg@3 0.79356
+2025-07-09 12:58:13  Trial 21 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0032744059911295545, 'max_depth': 12, 'num_leaves': 102, 'min_child_samples': 193, 'reg_alpha': 0.021012442052591517, 'reg_lambda': 0.0016857330723983278, 'subsample': 0.8818328191028729, 'colsample_bytree': 0.41487803258576444, 'n_estimators': 5112}
+
+2025-07-09 13:02:24  Trial  22 | Fold 1 | AUC 0.79055 | Avg@1 0.79055
+2025-07-09 13:06:30  Trial  22 | Fold 2 | AUC 0.79897 | Avg@2 0.79476
+2025-07-09 13:10:46  Trial  22 | Fold 3 | AUC 0.79137 | Avg@3 0.79363
+2025-07-09 13:10:46  Trial 22 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.003015319224235894, 'max_depth': 12, 'num_leaves': 102, 'min_child_samples': 191, 'reg_alpha': 0.023410644452531965, 'reg_lambda': 0.0017488512869694097, 'subsample': 0.8698475614421348, 'colsample_bytree': 0.41381040351316944, 'n_estimators': 4876}
+
+2025-07-09 13:15:12  Trial  23 | Fold 1 | AUC 0.79045 | Avg@1 0.79045
+2025-07-09 13:19:15  Trial  23 | Fold 2 | AUC 0.79901 | Avg@2 0.79473
+2025-07-09 13:23:45  Trial  23 | Fold 3 | AUC 0.79136 | Avg@3 0.79361
+2025-07-09 13:23:45  Trial 23 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0030969567184004074, 'max_depth': 13, 'num_leaves': 104, 'min_child_samples': 186, 'reg_alpha': 0.03596746250828555, 'reg_lambda': 0.0018843254379146386, 'subsample': 0.8443028170838632, 'colsample_bytree': 0.43997676849374584, 'n_estimators': 4884}
+
+2025-07-09 13:28:22  Trial  24 | Fold 1 | AUC 0.79026 | Avg@1 0.79026
+2025-07-09 13:32:25  Trial  24 | Fold 2 | AUC 0.79881 | Avg@2 0.79454
+2025-07-09 13:36:40  Trial  24 | Fold 3 | AUC 0.79130 | Avg@3 0.79346
+2025-07-09 13:36:40  Trial 24 pruned at fold 3
+
+2025-07-09 13:41:02  Trial  25 | Fold 1 | AUC 0.79059 | Avg@1 0.79059
+2025-07-09 13:44:13  Trial  25 | Fold 2 | AUC 0.79873 | Avg@2 0.79466
+2025-07-09 13:48:00  Trial  25 | Fold 3 | AUC 0.79087 | Avg@3 0.79340
+2025-07-09 13:48:00  Trial 25 pruned at fold 3
+
+2025-07-09 13:51:52  Trial  26 | Fold 1 | AUC 0.79056 | Avg@1 0.79056
+2025-07-09 13:55:11  Trial  26 | Fold 2 | AUC 0.79873 | Avg@2 0.79464
+2025-07-09 13:58:42  Trial  26 | Fold 3 | AUC 0.79081 | Avg@3 0.79336
+2025-07-09 13:58:42  Trial 26 pruned at fold 3
+
+2025-07-09 14:02:48  Trial  27 | Fold 1 | AUC 0.79043 | Avg@1 0.79043
+2025-07-09 14:06:46  Trial  27 | Fold 2 | AUC 0.79863 | Avg@2 0.79453
+2025-07-09 14:11:18  Trial  27 | Fold 3 | AUC 0.79134 | Avg@3 0.79347
+2025-07-09 14:11:18  Trial 27 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0032103788756295023, 'max_depth': 11, 'num_leaves': 105, 'min_child_samples': 188, 'reg_alpha': 0.04130451556583766, 'reg_lambda': 0.0013176981512684626, 'subsample': 0.8229568930391631, 'colsample_bytree': 0.4119756902228544, 'n_estimators': 5078}
+
+2025-07-09 14:15:51  Trial  28 | Fold 1 | AUC 0.79084 | Avg@1 0.79084
+2025-07-09 14:19:35  Trial  28 | Fold 2 | AUC 0.79886 | Avg@2 0.79485
+2025-07-09 14:23:38  Trial  28 | Fold 3 | AUC 0.79098 | Avg@3 0.79356
+2025-07-09 14:23:38  Trial 28 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0033767153370405064, 'max_depth': 13, 'num_leaves': 116, 'min_child_samples': 177, 'reg_alpha': 0.012837820996275971, 'reg_lambda': 0.0018204337156835363, 'subsample': 0.8954630253175164, 'colsample_bytree': 0.42166700550495834, 'n_estimators': 5499}
+
+2025-07-09 14:26:59  Trial  29 | Fold 1 | AUC 0.79069 | Avg@1 0.79069
+2025-07-09 14:30:00  Trial  29 | Fold 2 | AUC 0.79900 | Avg@2 0.79485
+2025-07-09 14:32:57  Trial  29 | Fold 3 | AUC 0.79104 | Avg@3 0.79358
+2025-07-09 14:32:57  Trial 29 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.004378203061639001, 'max_depth': 13, 'num_leaves': 102, 'min_child_samples': 191, 'reg_alpha': 0.026098630363036873, 'reg_lambda': 0.0027583402458911097, 'subsample': 0.8614262009393633, 'colsample_bytree': 0.4356128991285621, 'n_estimators': 4327}
+
+2025-07-09 14:37:48  Trial  30 | Fold 1 | AUC 0.79019 | Avg@1 0.79019
+2025-07-09 14:37:48  Trial 30 pruned at fold 1
+
+2025-07-09 14:41:46  Trial  31 | Fold 1 | AUC 0.79010 | Avg@1 0.79010
+2025-07-09 14:41:46  Trial 31 pruned at fold 1
+
+2025-07-09 14:45:10  Trial  32 | Fold 1 | AUC 0.79017 | Avg@1 0.79017
+2025-07-09 14:45:10  Trial 32 pruned at fold 1
+
+2025-07-09 14:49:41  Trial  33 | Fold 1 | AUC 0.79042 | Avg@1 0.79042
+2025-07-09 14:53:15  Trial  33 | Fold 2 | AUC 0.79888 | Avg@2 0.79465
+2025-07-09 14:57:14  Trial  33 | Fold 3 | AUC 0.79113 | Avg@3 0.79348
+2025-07-09 14:57:14  Trial 33 pruned at fold 3
+
+2025-07-09 15:02:06  Trial  34 | Fold 1 | AUC 0.78985 | Avg@1 0.78985
+2025-07-09 15:06:18  Trial  34 | Fold 2 | AUC 0.79849 | Avg@2 0.79417
+2025-07-09 15:11:00  Trial  34 | Fold 3 | AUC 0.79167 | Avg@3 0.79333
+2025-07-09 15:11:00  Trial 34 pruned at fold 3
+
+2025-07-09 15:15:07  Trial  35 | Fold 1 | AUC 0.79029 | Avg@1 0.79029
+2025-07-09 15:18:47  Trial  35 | Fold 2 | AUC 0.79868 | Avg@2 0.79448
+2025-07-09 15:22:12  Trial  35 | Fold 3 | AUC 0.79072 | Avg@3 0.79323
+2025-07-09 15:22:12  Trial 35 pruned at fold 3
+
+2025-07-09 15:25:15  Trial  36 | Fold 1 | AUC 0.79013 | Avg@1 0.79013
+2025-07-09 15:25:15  Trial 36 pruned at fold 1
+
+2025-07-09 15:29:07  Trial  37 | Fold 1 | AUC 0.79013 | Avg@1 0.79013
+2025-07-09 15:29:07  Trial 37 pruned at fold 1
+
+2025-07-09 15:33:45  Trial  38 | Fold 1 | AUC 0.79053 | Avg@1 0.79053
+2025-07-09 15:37:39  Trial  38 | Fold 2 | AUC 0.79903 | Avg@2 0.79478
+2025-07-09 15:41:52  Trial  38 | Fold 3 | AUC 0.79120 | Avg@3 0.79359
+2025-07-09 15:41:52  Trial 38 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0031824722820498292, 'max_depth': 12, 'num_leaves': 130, 'min_child_samples': 192, 'reg_alpha': 0.016632615288332205, 'reg_lambda': 0.0021818143882733785, 'subsample': 0.894606274685787, 'colsample_bytree': 0.4086605741121299, 'n_estimators': 5244}
+
+2025-07-09 15:45:16  Trial  39 | Fold 1 | AUC 0.79046 | Avg@1 0.79046
+2025-07-09 15:48:24  Trial  39 | Fold 2 | AUC 0.79877 | Avg@2 0.79461
+2025-07-09 15:51:20  Trial  39 | Fold 3 | AUC 0.79090 | Avg@3 0.79337
+2025-07-09 15:51:20  Trial 39 pruned at fold 3
+
+2025-07-09 15:53:41  Trial  40 | Fold 1 | AUC 0.79010 | Avg@1 0.79010
+2025-07-09 15:56:25  Trial  40 | Fold 2 | AUC 0.79827 | Avg@2 0.79418
+2025-07-09 15:59:13  Trial  40 | Fold 3 | AUC 0.79064 | Avg@3 0.79300
+2025-07-09 15:59:13  Trial 40 pruned at fold 3
+
+2025-07-09 16:03:33  Trial  41 | Fold 1 | AUC 0.79040 | Avg@1 0.79040
+2025-07-09 16:07:34  Trial  41 | Fold 2 | AUC 0.79899 | Avg@2 0.79470
+2025-07-09 16:11:54  Trial  41 | Fold 3 | AUC 0.79090 | Avg@3 0.79343
+2025-07-09 16:11:54  Trial 41 pruned at fold 3
+
+2025-07-09 16:16:18  Trial  42 | Fold 1 | AUC 0.79020 | Avg@1 0.79020
+2025-07-09 16:16:18  Trial 42 pruned at fold 1
+
+2025-07-09 16:20:22  Trial  43 | Fold 1 | AUC 0.79020 | Avg@1 0.79020
+2025-07-09 16:20:22  Trial 43 pruned at fold 1
+
+2025-07-09 16:24:34  Trial  44 | Fold 1 | AUC 0.79042 | Avg@1 0.79042
+2025-07-09 16:28:44  Trial  44 | Fold 2 | AUC 0.79920 | Avg@2 0.79481
+2025-07-09 16:33:00  Trial  44 | Fold 3 | AUC 0.79128 | Avg@3 0.79363
+2025-07-09 16:33:00  Trial 44 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0032363429236668823, 'max_depth': 13, 'num_leaves': 104, 'min_child_samples': 190, 'reg_alpha': 0.02332232010488394, 'reg_lambda': 0.0011847425022918408, 'subsample': 0.8237591798614662, 'colsample_bytree': 0.438556031056463, 'n_estimators': 5155}
+
+2025-07-09 16:37:05  Trial  45 | Fold 1 | AUC 0.79001 | Avg@1 0.79001
+2025-07-09 16:41:14  Trial  45 | Fold 2 | AUC 0.79904 | Avg@2 0.79453
+2025-07-09 16:45:18  Trial  45 | Fold 3 | AUC 0.79079 | Avg@3 0.79328
+2025-07-09 16:45:18  Trial 45 pruned at fold 3
+
+2025-07-09 16:49:31  Trial  46 | Fold 1 | AUC 0.79001 | Avg@1 0.79001
+2025-07-09 16:49:31  Trial 46 pruned at fold 1
+
+2025-07-09 16:52:34  Trial  47 | Fold 1 | AUC 0.78993 | Avg@1 0.78993
+2025-07-09 16:52:34  Trial 47 pruned at fold 1
+
+2025-07-09 16:56:21  Trial  48 | Fold 1 | AUC 0.79029 | Avg@1 0.79029
+2025-07-09 16:59:37  Trial  48 | Fold 2 | AUC 0.79874 | Avg@2 0.79452
+2025-07-09 17:03:28  Trial  48 | Fold 3 | AUC 0.79120 | Avg@3 0.79341
+2025-07-09 17:03:28  Trial 48 pruned at fold 3
+
+2025-07-09 17:07:37  Trial  49 | Fold 1 | AUC 0.79043 | Avg@1 0.79043
+2025-07-09 17:11:18  Trial  49 | Fold 2 | AUC 0.79924 | Avg@2 0.79483
+2025-07-09 17:15:01  Trial  49 | Fold 3 | AUC 0.79121 | Avg@3 0.79362
+2025-07-09 17:15:01  Trial 49 complete | Params: {'boosting_type': 'goss', 'learning_rate': 0.0036852707045563243, 'max_depth': 13, 'num_leaves': 115, 'min_child_samples': 182, 'reg_alpha': 0.020892032498357083, 'reg_lambda': 0.0030818692872155115, 'subsample': 0.7668409243846541, 'colsample_bytree': 0.4065149012868628, 'n_estimators': 4730}
+

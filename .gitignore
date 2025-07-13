@@ -5,5 +5,7 @@ notebooks/wandb
 04_feature_selection.py
 05_auto_feature_search.py
 simple_notes.md
+src/creditutils.egg-info
+
 
 outputs/

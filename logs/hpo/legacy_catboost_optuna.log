@@ -1,0 +1,588 @@
+
+=== CATBOOST OPTUNA RUN STARTED 2025-07-07 10:27:18.076896 ===
+Trial 0
+Fold 1 AUC: 0.78346
+Fold 2 AUC: 0.79082
+Fold 3 AUC: 0.78397
+Fold 4 AUC: 0.79152
+Fold 5 AUC: 0.78394
+ Mean AUC: 0.78674
+ Params: {'iterations': 1000, 'learning_rate': 0.023688639503640783, 'depth': 10, 'l2_leaf_reg': 7.587945476302646, 'bagging_temperature': 0.5986584841970366, 'border_count': 66, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 1
+Fold 1 AUC: 0.77735
+Fold 2 AUC: 0.78607
+Fold 3 AUC: 0.77808
+Fold 4 AUC: 0.78474
+Fold 5 AUC: 0.77501
+ Mean AUC: 0.78025
+ Params: {'iterations': 1000, 'learning_rate': 0.01432169828911152, 'depth': 4, 'l2_leaf_reg': 8.795585311974417, 'bagging_temperature': 0.6011150117432088, 'border_count': 190, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 2
+Fold 1 AUC: 0.78098
+Fold 2 AUC: 0.78888
+Fold 3 AUC: 0.78173
+Fold 4 AUC: 0.78883
+Fold 5 AUC: 0.77886
+ Mean AUC: 0.78386
+ Params: {'iterations': 1000, 'learning_rate': 0.010485387725194618, 'depth': 10, 'l2_leaf_reg': 8.491983767203795, 'bagging_temperature': 0.21233911067827616, 'border_count': 72, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 3
+Fold 1 AUC: 0.78255
+Fold 2 AUC: 0.79114
+Fold 3 AUC: 0.78320
+Fold 4 AUC: 0.78973
+Fold 5 AUC: 0.78070
+ Mean AUC: 0.78546
+ Params: {'iterations': 1000, 'learning_rate': 0.015254729458052608, 'depth': 6, 'l2_leaf_reg': 5.72280788469014, 'bagging_temperature': 0.43194501864211576, 'border_count': 97, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 4
+Fold 1 AUC: 0.78596
+Fold 2 AUC: 0.79500
+Fold 3 AUC: 0.78699
+Fold 4 AUC: 0.79308
+Fold 5 AUC: 0.78548
+ Mean AUC: 0.78930
+ Params: {'iterations': 1000, 'learning_rate': 0.04091220574443785, 'depth': 4, 'l2_leaf_reg': 3.629301836816963, 'bagging_temperature': 0.3663618432936917, 'border_count': 134, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 5
+Fold 1 AUC: 0.78729
+Fold 2 AUC: 0.79466
+Fold 3 AUC: 0.78821
+Fold 4 AUC: 0.79650
+Fold 5 AUC: 0.78694
+ Mean AUC: 0.79072
+ Params: {'iterations': 1000, 'learning_rate': 0.06097839109531514, 'depth': 5, 'l2_leaf_reg': 5.628109945722504, 'bagging_temperature': 0.5924145688620425, 'border_count': 42, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 6
+Fold 1 AUC: 0.78705
+Fold 2 AUC: 0.79496
+Fold 3 AUC: 0.78795
+Fold 4 AUC: 0.79442
+Fold 5 AUC: 0.78634
+ Mean AUC: 0.79014
+ Params: {'iterations': 1000, 'learning_rate': 0.04050837781329675, 'depth': 5, 'l2_leaf_reg': 1.5854643368675156, 'bagging_temperature': 0.9488855372533332, 'border_count': 248, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 7
+Fold 1 AUC: 0.78600
+Fold 2 AUC: 0.79328
+Fold 3 AUC: 0.78745
+Fold 4 AUC: 0.79443
+Fold 5 AUC: 0.78702
+ Mean AUC: 0.78964
+ Params: {'iterations': 1000, 'learning_rate': 0.06432759992849894, 'depth': 6, 'l2_leaf_reg': 1.8790490260574548, 'bagging_temperature': 0.6842330265121569, 'border_count': 130, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 8
+Fold 1 AUC: 0.78132
+Fold 2 AUC: 0.79006
+Fold 3 AUC: 0.78230
+Fold 4 AUC: 0.78890
+Fold 5 AUC: 0.77961
+ Mean AUC: 0.78444
+ Params: {'iterations': 1000, 'learning_rate': 0.01324458134009936, 'depth': 7, 'l2_leaf_reg': 1.3094966900369656, 'bagging_temperature': 0.9093204020787821, 'border_count': 89, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 9
+Fold 1 AUC: 0.78752
+Fold 2 AUC: 0.79582
+Fold 3 AUC: 0.78859
+Fold 4 AUC: 0.79489
+Fold 5 AUC: 0.78722
+ Mean AUC: 0.79081
+ Params: {'iterations': 1000, 'learning_rate': 0.04597505784732168, 'depth': 6, 'l2_leaf_reg': 5.680612190600297, 'bagging_temperature': 0.5467102793432796, 'border_count': 73, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 10
+Fold 1 AUC: 0.78370
+Fold 2 AUC: 0.79049
+Fold 3 AUC: 0.78431
+Fold 4 AUC: 0.79017
+Fold 5 AUC: 0.78328
+ Mean AUC: 0.78639
+ Params: {'iterations': 1000, 'learning_rate': 0.09178043320270247, 'depth': 8, 'l2_leaf_reg': 3.9081398005207246, 'bagging_temperature': 0.017961875614819767, 'border_count': 178, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 11
+Fold 1 AUC: 0.78739
+Fold 2 AUC: 0.79511
+Fold 3 AUC: 0.78800
+Fold 4 AUC: 0.79485
+Fold 5 AUC: 0.78677
+ Mean AUC: 0.79043
+ Params: {'iterations': 1000, 'learning_rate': 0.061708804661633164, 'depth': 6, 'l2_leaf_reg': 5.856614840042946, 'bagging_temperature': 0.7446608994507355, 'border_count': 33, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 12
+Fold 1 AUC: 0.78522
+Fold 2 AUC: 0.79341
+Fold 3 AUC: 0.78557
+Fold 4 AUC: 0.79197
+Fold 5 AUC: 0.78511
+ Mean AUC: 0.78826
+ Params: {'iterations': 1000, 'learning_rate': 0.060458890720018324, 'depth': 8, 'l2_leaf_reg': 7.076104003536231, 'bagging_temperature': 0.31711212927767674, 'border_count': 39, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 13
+Fold 1 AUC: 0.78578
+Fold 2 AUC: 0.79420
+Fold 3 AUC: 0.78687
+Fold 4 AUC: 0.79283
+Fold 5 AUC: 0.78498
+ Mean AUC: 0.78893
+ Params: {'iterations': 1000, 'learning_rate': 0.028660884647677198, 'depth': 5, 'l2_leaf_reg': 3.8568915619117177, 'bagging_temperature': 0.7829048623494537, 'border_count': 108, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 14
+Fold 1 AUC: 0.78713
+Fold 2 AUC: 0.79463
+Fold 3 AUC: 0.78717
+Fold 4 AUC: 0.79461
+Fold 5 AUC: 0.78659
+ Mean AUC: 0.79003
+ Params: {'iterations': 1000, 'learning_rate': 0.09240882271369287, 'depth': 5, 'l2_leaf_reg': 4.830025669656832, 'bagging_temperature': 0.5286971055787608, 'border_count': 57, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 15
+Fold 1 AUC: 0.78721
+Fold 2 AUC: 0.79563
+Fold 3 AUC: 0.78802
+Fold 4 AUC: 0.79421
+Fold 5 AUC: 0.78727
+ Mean AUC: 0.79047
+ Params: {'iterations': 1000, 'learning_rate': 0.04662574558035198, 'depth': 7, 'l2_leaf_reg': 9.96414878572692, 'bagging_temperature': 0.1875326314333673, 'border_count': 164, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 16
+Fold 1 AUC: 0.78702
+Fold 2 AUC: 0.79379
+Fold 3 AUC: 0.78773
+Fold 4 AUC: 0.79346
+Fold 5 AUC: 0.78536
+ Mean AUC: 0.78947
+ Params: {'iterations': 1000, 'learning_rate': 0.02220056994577215, 'depth': 8, 'l2_leaf_reg': 6.7302633511620105, 'bagging_temperature': 0.5105856373833606, 'border_count': 221, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 17
+Fold 1 AUC: 0.78636
+Fold 2 AUC: 0.79469
+Fold 3 AUC: 0.78753
+Fold 4 AUC: 0.79419
+Fold 5 AUC: 0.78655
+ Mean AUC: 0.78986
+ Params: {'iterations': 1000, 'learning_rate': 0.05206508830363432, 'depth': 4, 'l2_leaf_reg': 4.802910589415332, 'bagging_temperature': 0.8343963925162559, 'border_count': 114, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 18
+Fold 1 AUC: 0.78671
+Fold 2 AUC: 0.79384
+Fold 3 AUC: 0.78751
+Fold 4 AUC: 0.79300
+Fold 5 AUC: 0.78597
+ Mean AUC: 0.78940
+ Params: {'iterations': 1000, 'learning_rate': 0.06983010319316811, 'depth': 6, 'l2_leaf_reg': 2.7165005131022273, 'bagging_temperature': 0.6295403788851194, 'border_count': 79, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 19
+Fold 1 AUC: 0.78630
+Fold 2 AUC: 0.79481
+Fold 3 AUC: 0.78639
+Fold 4 AUC: 0.79334
+Fold 5 AUC: 0.78530
+ Mean AUC: 0.78923
+ Params: {'iterations': 1000, 'learning_rate': 0.030628453420646722, 'depth': 5, 'l2_leaf_reg': 6.258301960540255, 'bagging_temperature': 0.4245353478494085, 'border_count': 55, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 20
+Fold 1 AUC: 0.78798
+Fold 2 AUC: 0.79473
+Fold 3 AUC: 0.78714
+Fold 4 AUC: 0.79426
+Fold 5 AUC: 0.78666
+ Mean AUC: 0.79015
+ Params: {'iterations': 1000, 'learning_rate': 0.037050229004922886, 'depth': 7, 'l2_leaf_reg': 4.879456907684718, 'bagging_temperature': 0.2665732394556193, 'border_count': 33, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 21
+Fold 1 AUC: 0.78788
+Fold 2 AUC: 0.79481
+Fold 3 AUC: 0.78762
+Fold 4 AUC: 0.79355
+Fold 5 AUC: 0.78594
+ Mean AUC: 0.78996
+ Params: {'iterations': 1000, 'learning_rate': 0.05046176016615848, 'depth': 7, 'l2_leaf_reg': 9.902025934136711, 'bagging_temperature': 0.13965151047550473, 'border_count': 161, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 22
+Fold 1 AUC: 0.78509
+Fold 2 AUC: 0.79103
+Fold 3 AUC: 0.78510
+Fold 4 AUC: 0.79202
+Fold 5 AUC: 0.78278
+ Mean AUC: 0.78720
+ Params: {'iterations': 1000, 'learning_rate': 0.04906923804729615, 'depth': 9, 'l2_leaf_reg': 7.98242397444663, 'bagging_temperature': 0.09786484880675228, 'border_count': 173, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 23
+Fold 1 AUC: 0.78746
+Fold 2 AUC: 0.79467
+Fold 3 AUC: 0.78735
+Fold 4 AUC: 0.79323
+Fold 5 AUC: 0.78676
+ Mean AUC: 0.78990
+ Params: {'iterations': 1000, 'learning_rate': 0.07848211097442113, 'depth': 6, 'l2_leaf_reg': 6.679501929548952, 'bagging_temperature': 0.43609983357228016, 'border_count': 155, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 24
+Fold 1 AUC: 0.78747
+Fold 2 AUC: 0.79536
+Fold 3 AUC: 0.78810
+Fold 4 AUC: 0.79445
+Fold 5 AUC: 0.78730
+ Mean AUC: 0.79054
+ Params: {'iterations': 1000, 'learning_rate': 0.03652021983566548, 'depth': 7, 'l2_leaf_reg': 9.965324297353312, 'bagging_temperature': 0.707700128366587, 'border_count': 121, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 25
+Fold 1 AUC: 0.78649
+Fold 2 AUC: 0.79503
+Fold 3 AUC: 0.78734
+Fold 4 AUC: 0.79346
+Fold 5 AUC: 0.78634
+ Mean AUC: 0.78973
+ Params: {'iterations': 1000, 'learning_rate': 0.035077751024157236, 'depth': 5, 'l2_leaf_reg': 9.133033495781003, 'bagging_temperature': 0.7114392450523022, 'border_count': 118, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 26
+Fold 1 AUC: 0.78610
+Fold 2 AUC: 0.79448
+Fold 3 AUC: 0.78690
+Fold 4 AUC: 0.79398
+Fold 5 AUC: 0.78545
+ Mean AUC: 0.78938
+ Params: {'iterations': 1000, 'learning_rate': 0.025078101068477993, 'depth': 7, 'l2_leaf_reg': 2.751386959461013, 'bagging_temperature': 0.8246726853201041, 'border_count': 92, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 27
+Fold 1 AUC: 0.78253
+Fold 2 AUC: 0.78973
+Fold 3 AUC: 0.78222
+Fold 4 AUC: 0.79072
+Fold 5 AUC: 0.78149
+ Mean AUC: 0.78534
+ Params: {'iterations': 1000, 'learning_rate': 0.07814681193990512, 'depth': 9, 'l2_leaf_reg': 7.496263657480264, 'bagging_temperature': 0.6492780746948188, 'border_count': 50, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 28
+Fold 1 AUC: 0.78429
+Fold 2 AUC: 0.79231
+Fold 3 AUC: 0.78498
+Fold 4 AUC: 0.79188
+Fold 5 AUC: 0.78250
+ Mean AUC: 0.78719
+ Params: {'iterations': 1000, 'learning_rate': 0.0179190874656224, 'depth': 6, 'l2_leaf_reg': 5.263638528787374, 'bagging_temperature': 0.5513302891482562, 'border_count': 77, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 29
+Fold 1 AUC: 0.78560
+Fold 2 AUC: 0.79432
+Fold 3 AUC: 0.78632
+Fold 4 AUC: 0.79278
+Fold 5 AUC: 0.78409
+ Mean AUC: 0.78862
+ Params: {'iterations': 1000, 'learning_rate': 0.02564490361134421, 'depth': 5, 'l2_leaf_reg': 7.8038730469684685, 'bagging_temperature': 0.5506806650935556, 'border_count': 65, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+
+Beste AUC: 0.79081
+ Beste Parameter:
+learning_rate: 0.04597505784732168
+depth: 6
+l2_leaf_reg: 5.680612190600297
+bagging_temperature: 0.5467102793432796
+border_count: 73
+
+=== CATBOOST OPTUNA RUN STARTED 2025-07-09 17:28:05.189840 ===
+Trial 0
+Fold 1 AUC: 0.78606
+Fold 2 AUC: 0.79430
+Fold 3 AUC: 0.78651
+Fold 4 AUC: 0.79330
+Fold 5 AUC: 0.78522
+ Mean AUC: 0.78908
+ Params: {'iterations': 1187, 'learning_rate': 0.06713701822915177, 'depth': 7, 'l2_leaf_reg': 6.894633936788146, 'bagging_temperature': 0.37800932022121825, 'border_count': 62, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 1
+Fold 1 AUC: 0.78677
+Fold 2 AUC: 0.79432
+Fold 3 AUC: 0.78761
+Fold 4 AUC: 0.79532
+Fold 5 AUC: 0.78680
+ Mean AUC: 0.79016
+ Params: {'iterations': 1029, 'learning_rate': 0.0624962513595065, 'depth': 6, 'l2_leaf_reg': 7.332290311184182, 'bagging_temperature': 0.3102922471479012, 'border_count': 128, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 2
+Fold 1 AUC: 0.78767
+Fold 2 AUC: 0.79511
+Fold 3 AUC: 0.78880
+Fold 4 AUC: 0.79538
+Fold 5 AUC: 0.78724
+ Mean AUC: 0.79084
+ Params: {'iterations': 1417, 'learning_rate': 0.03591344923418258, 'depth': 5, 'l2_leaf_reg': 5.233618039413735, 'bagging_temperature': 0.45212112147976885, 'border_count': 92, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 3
+Fold 1 AUC: 0.78762
+Fold 2 AUC: 0.79511
+Fold 3 AUC: 0.78828
+Fold 4 AUC: 0.79423
+Fold 5 AUC: 0.78786
+ Mean AUC: 0.79062
+ Params: {'iterations': 1216, 'learning_rate': 0.03839607377925467, 'depth': 6, 'l2_leaf_reg': 5.057975442608168, 'bagging_temperature': 0.44607232426760907, 'border_count': 79, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 4
+Fold 1 AUC: 0.78765
+Fold 2 AUC: 0.79640
+Fold 3 AUC: 0.78796
+Fold 4 AUC: 0.79524
+Fold 5 AUC: 0.78758
+ Mean AUC: 0.79097
+ Params: {'iterations': 1228, 'learning_rate': 0.058350929817304865, 'depth': 5, 'l2_leaf_reg': 6.556937753654447, 'bagging_temperature': 0.5962072844310212, 'border_count': 53, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 5
+Fold 1 AUC: 0.78775
+Fold 2 AUC: 0.79529
+Fold 3 AUC: 0.78813
+Fold 4 AUC: 0.79518
+Fold 5 AUC: 0.78705
+ Mean AUC: 0.79068
+ Params: {'iterations': 1304, 'learning_rate': 0.0346633213676487, 'depth': 5, 'l2_leaf_reg': 8.295542149013333, 'bagging_temperature': 0.7828160165372797, 'border_count': 115, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 6
+Fold 1 AUC: 0.78722
+Fold 2 AUC: 0.79476
+Fold 3 AUC: 0.78849
+Fold 4 AUC: 0.79454
+Fold 5 AUC: 0.78659
+ Mean AUC: 0.79032
+ Params: {'iterations': 1152, 'learning_rate': 0.032588346491499026, 'depth': 7, 'l2_leaf_reg': 6.260609974958405, 'bagging_temperature': 0.3610191174223894, 'border_count': 90, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 7
+Fold 1 AUC: 0.78726
+Fold 2 AUC: 0.79486
+Fold 3 AUC: 0.78845
+Fold 4 AUC: 0.79352
+Fold 5 AUC: 0.78649
+ Mean AUC: 0.79011
+ Params: {'iterations': 1017, 'learning_rate': 0.06482313833863917, 'depth': 5, 'l2_leaf_reg': 7.150089137415928, 'bagging_temperature': 0.45585553804470547, 'border_count': 92, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 8
+Fold 1 AUC: 0.78763
+Fold 2 AUC: 0.79539
+Fold 3 AUC: 0.78717
+Fold 4 AUC: 0.79541
+Fold 5 AUC: 0.78771
+ Mean AUC: 0.79066
+ Params: {'iterations': 1273, 'learning_rate': 0.035086771051565845, 'depth': 7, 'l2_leaf_reg': 7.600531293444458, 'bagging_temperature': 0.7697494707820945, 'border_count': 122, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 9
+Fold 1 AUC: 0.78737
+Fold 2 AUC: 0.79451
+Fold 3 AUC: 0.78851
+Fold 4 AUC: 0.79480
+Fold 5 AUC: 0.78759
+ Mean AUC: 0.79056
+ Params: {'iterations': 1299, 'learning_rate': 0.06551633157228336, 'depth': 5, 'l2_leaf_reg': 5.283931449676581, 'bagging_temperature': 0.322613644455269, 'border_count': 76, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 10
+Fold 1 AUC: 0.78773
+Fold 2 AUC: 0.79539
+Fold 3 AUC: 0.78818
+Fold 4 AUC: 0.79499
+Fold 5 AUC: 0.78640
+ Mean AUC: 0.79054
+ Params: {'iterations': 1473, 'learning_rate': 0.05314114534632346, 'depth': 6, 'l2_leaf_reg': 6.2066206413897715, 'bagging_temperature': 0.6345357465564295, 'border_count': 53, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 11
+Fold 1 AUC: 0.78738
+Fold 2 AUC: 0.79498
+Fold 3 AUC: 0.78818
+Fold 4 AUC: 0.79499
+Fold 5 AUC: 0.78753
+ Mean AUC: 0.79061
+ Params: {'iterations': 1434, 'learning_rate': 0.045610507919391974, 'depth': 5, 'l2_leaf_reg': 4.552706929853362, 'bagging_temperature': 0.5802717099388408, 'border_count': 103, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 12
+Fold 1 AUC: 0.78732
+Fold 2 AUC: 0.79463
+Fold 3 AUC: 0.78860
+Fold 4 AUC: 0.79574
+Fold 5 AUC: 0.78746
+ Mean AUC: 0.79075
+ Params: {'iterations': 1390, 'learning_rate': 0.04334652425574159, 'depth': 5, 'l2_leaf_reg': 5.773145000499232, 'bagging_temperature': 0.6620641440402597, 'border_count': 71, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 13
+Fold 1 AUC: 0.78734
+Fold 2 AUC: 0.79503
+Fold 3 AUC: 0.78791
+Fold 4 AUC: 0.79543
+Fold 5 AUC: 0.78676
+ Mean AUC: 0.79050
+ Params: {'iterations': 1377, 'learning_rate': 0.05185390068283239, 'depth': 5, 'l2_leaf_reg': 5.777849860552877, 'bagging_temperature': 0.5130662749503885, 'border_count': 102, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 14
+Fold 1 AUC: 0.78785
+Fold 2 AUC: 0.79507
+Fold 3 AUC: 0.78717
+Fold 4 AUC: 0.79415
+Fold 5 AUC: 0.78717
+ Mean AUC: 0.79028
+ Params: {'iterations': 1102, 'learning_rate': 0.056792416194606454, 'depth': 6, 'l2_leaf_reg': 6.712663057499048, 'bagging_temperature': 0.5468358143490324, 'border_count': 51, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 15
+Fold 1 AUC: 0.78775
+Fold 2 AUC: 0.79460
+Fold 3 AUC: 0.78906
+Fold 4 AUC: 0.79449
+Fold 5 AUC: 0.78762
+ Mean AUC: 0.79070
+ Params: {'iterations': 1500, 'learning_rate': 0.04159576460431376, 'depth': 5, 'l2_leaf_reg': 5.598191888747998, 'bagging_temperature': 0.6989974345395085, 'border_count': 87, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 16
+Fold 1 AUC: 0.78730
+Fold 2 AUC: 0.79529
+Fold 3 AUC: 0.78769
+Fold 4 AUC: 0.79447
+Fold 5 AUC: 0.78712
+ Mean AUC: 0.79037
+ Params: {'iterations': 1345, 'learning_rate': 0.04884405851308203, 'depth': 6, 'l2_leaf_reg': 4.594158942341568, 'bagging_temperature': 0.4671680435920643, 'border_count': 64, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 17
+Fold 1 AUC: 0.78715
+Fold 2 AUC: 0.79482
+Fold 3 AUC: 0.78777
+Fold 4 AUC: 0.79493
+Fold 5 AUC: 0.78721
+ Mean AUC: 0.79038
+ Params: {'iterations': 1230, 'learning_rate': 0.03897539599935083, 'depth': 5, 'l2_leaf_reg': 7.929564520037395, 'bagging_temperature': 0.5958450186265036, 'border_count': 114, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 18
+Fold 1 AUC: 0.78730
+Fold 2 AUC: 0.79432
+Fold 3 AUC: 0.78807
+Fold 4 AUC: 0.79483
+Fold 5 AUC: 0.78786
+ Mean AUC: 0.79048
+ Params: {'iterations': 1094, 'learning_rate': 0.05814673640855712, 'depth': 6, 'l2_leaf_reg': 6.3566659841798066, 'bagging_temperature': 0.5158607416263603, 'border_count': 100, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 19
+Fold 1 AUC: 0.78731
+Fold 2 AUC: 0.79541
+Fold 3 AUC: 0.78811
+Fold 4 AUC: 0.79499
+Fold 5 AUC: 0.78684
+ Mean AUC: 0.79053
+ Params: {'iterations': 1331, 'learning_rate': 0.03026875228345932, 'depth': 5, 'l2_leaf_reg': 5.0625226321135735, 'bagging_temperature': 0.720268595864156, 'border_count': 81, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 20
+Fold 1 AUC: 0.78678
+Fold 2 AUC: 0.79539
+Fold 3 AUC: 0.78782
+Fold 4 AUC: 0.79511
+Fold 5 AUC: 0.78752
+ Mean AUC: 0.79052
+ Params: {'iterations': 1415, 'learning_rate': 0.0482358780493215, 'depth': 6, 'l2_leaf_reg': 6.015571357213466, 'bagging_temperature': 0.41117317845056384, 'border_count': 64, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 21
+Fold 1 AUC: 0.78745
+Fold 2 AUC: 0.79600
+Fold 3 AUC: 0.78905
+Fold 4 AUC: 0.79567
+Fold 5 AUC: 0.78775
+ Mean AUC: 0.79118
+ Params: {'iterations': 1383, 'learning_rate': 0.042326510977740595, 'depth': 5, 'l2_leaf_reg': 5.551455325485743, 'bagging_temperature': 0.6584052675829963, 'border_count': 72, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 22
+Fold 1 AUC: 0.78770
+Fold 2 AUC: 0.79599
+Fold 3 AUC: 0.78831
+Fold 4 AUC: 0.79585
+Fold 5 AUC: 0.78731
+ Mean AUC: 0.79103
+ Params: {'iterations': 1453, 'learning_rate': 0.03821455654208031, 'depth': 5, 'l2_leaf_reg': 5.391845038287528, 'bagging_temperature': 0.6023221586891339, 'border_count': 57, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 23
+Fold 1 AUC: 0.78815
+Fold 2 AUC: 0.79595
+Fold 3 AUC: 0.78864
+Fold 4 AUC: 0.79487
+Fold 5 AUC: 0.78724
+ Mean AUC: 0.79097
+ Params: {'iterations': 1464, 'learning_rate': 0.040431959756853715, 'depth': 5, 'l2_leaf_reg': 6.6822215730445835, 'bagging_temperature': 0.6155674316861391, 'border_count': 56, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 24
+Fold 1 AUC: 0.78804
+Fold 2 AUC: 0.79650
+Fold 3 AUC: 0.78906
+Fold 4 AUC: 0.79495
+Fold 5 AUC: 0.78695
+ Mean AUC: 0.79110
+ Params: {'iterations': 1461, 'learning_rate': 0.040768835393760666, 'depth': 5, 'l2_leaf_reg': 5.434190473781729, 'bagging_temperature': 0.6499610606747467, 'border_count': 59, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 25
+Fold 1 AUC: 0.78769
+Fold 2 AUC: 0.79550
+Fold 3 AUC: 0.78861
+Fold 4 AUC: 0.79564
+Fold 5 AUC: 0.78776
+ Mean AUC: 0.79104
+ Params: {'iterations': 1458, 'learning_rate': 0.04514993434672009, 'depth': 5, 'l2_leaf_reg': 5.475446087574779, 'bagging_temperature': 0.6768805287595425, 'border_count': 70, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 26
+Fold 1 AUC: 0.78708
+Fold 2 AUC: 0.79530
+Fold 3 AUC: 0.78892
+Fold 4 AUC: 0.79505
+Fold 5 AUC: 0.78665
+ Mean AUC: 0.79060
+ Params: {'iterations': 1367, 'learning_rate': 0.04528434218006572, 'depth': 5, 'l2_leaf_reg': 4.84065518218017, 'bagging_temperature': 0.6824446067520024, 'border_count': 71, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 27
+Fold 1 AUC: 0.78806
+Fold 2 AUC: 0.79445
+Fold 3 AUC: 0.78897
+Fold 4 AUC: 0.79577
+Fold 5 AUC: 0.78835
+ Mean AUC: 0.79112
+ Params: {'iterations': 1494, 'learning_rate': 0.0431858936243877, 'depth': 6, 'l2_leaf_reg': 5.956300927000512, 'bagging_temperature': 0.737419170730082, 'border_count': 70, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 28
+Fold 1 AUC: 0.78719
+Fold 2 AUC: 0.79552
+Fold 3 AUC: 0.78841
+Fold 4 AUC: 0.79446
+Fold 5 AUC: 0.78809
+ Mean AUC: 0.79074
+ Params: {'iterations': 1494, 'learning_rate': 0.041918082686589996, 'depth': 6, 'l2_leaf_reg': 5.959379357464647, 'bagging_temperature': 0.7476587841133101, 'border_count': 61, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 29
+Fold 1 AUC: 0.78675
+Fold 2 AUC: 0.79331
+Fold 3 AUC: 0.78750
+Fold 4 AUC: 0.79435
+Fold 5 AUC: 0.78682
+ Mean AUC: 0.78975
+ Params: {'iterations': 1398, 'learning_rate': 0.050785730089942624, 'depth': 7, 'l2_leaf_reg': 5.647234632623222, 'bagging_temperature': 0.7212903012519859, 'border_count': 67, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 30
+Fold 1 AUC: 0.78740
+Fold 2 AUC: 0.79552
+Fold 3 AUC: 0.78770
+Fold 4 AUC: 0.79532
+Fold 5 AUC: 0.78695
+ Mean AUC: 0.79058
+ Params: {'iterations': 1431, 'learning_rate': 0.036869488474369744, 'depth': 7, 'l2_leaf_reg': 5.9949758537137185, 'bagging_temperature': 0.6381560818182694, 'border_count': 84, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 31
+Fold 1 AUC: 0.78814
+Fold 2 AUC: 0.79571
+Fold 3 AUC: 0.78876
+Fold 4 AUC: 0.79526
+Fold 5 AUC: 0.78792
+ Mean AUC: 0.79116
+ Params: {'iterations': 1462, 'learning_rate': 0.043192233305524255, 'depth': 5, 'l2_leaf_reg': 5.387824624393193, 'bagging_temperature': 0.6636070222369931, 'border_count': 73, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+Trial 32
+Fold 1 AUC: 0.78747
+Fold 2 AUC: 0.79502
+Fold 3 AUC: 0.78883
+Fold 4 AUC: 0.79505
+Fold 5 AUC: 0.78752
+ Mean AUC: 0.79078
+ Params: {'iterations': 1493, 'learning_rate': 0.04340570632212518, 'depth': 6, 'l2_leaf_reg': 4.961561914591599, 'bagging_temperature': 0.7472236440723408, 'border_count': 75, 'auto_class_weights': 'Balanced', 'eval_metric': 'AUC', 'random_seed': 42, 'verbose': 0, 'early_stopping_rounds': 75, 'cat_features': ['NAME_CONTRACT_TYPE', 'CODE_GENDER', 'NAME_TYPE_SUITE', 'NAME_INCOME_TYPE', 'NAME_EDUCATION_TYPE', 'NAME_FAMILY_STATUS', 'NAME_HOUSING_TYPE', 'OCCUPATION_TYPE', 'WEEKDAY_APPR_PROCESS_START', 'ORGANIZATION_TYPE', 'FONDKAPREMONT_MODE', 'HOUSETYPE_MODE', 'WALLSMATERIAL_MODE', 'EMERGENCYSTATE_MODE'], 'task_type': 'CPU'}
+
+
+Beste AUC: 0.79118
+ Beste Parameter:
+iterations: 1383
+learning_rate: 0.042326510977740595
+depth: 5
+l2_leaf_reg: 5.551455325485743
+bagging_temperature: 0.6584052675829963
+border_count: 72
