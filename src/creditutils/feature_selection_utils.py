@@ -16,7 +16,7 @@ def evaluate_auc(X, y, model, cv, name=None, verbose=True):
     Returns:
         mean_auc (float), std_auc (float)
     """
-    scores = cross_val_score(model, X, y, cv=cv, scoring="roc_auc", n_jobs=-1)
+    scores = cross_val_score(model, X, y, cv=cv, scoring="roc_auc", n_jobs=1)
     if verbose:
         label = f"[{name}] " if name else ""
         print(f"{label}AUC: {scores.mean():.5f} ± {scores.std():.5f}")

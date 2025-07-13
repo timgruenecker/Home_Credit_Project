@@ -4,18 +4,36 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def load_datasets(data_dir):
+def load_datasets(data_dir, tables):
     """
-    Load every CSV in data_dir into a dict of DataFrames.
-    Key = filename without extension.
+    Load datasets from Parquet if available, else from CSV (and convert to Parquet).
+    
+    Parameters:
+        data_dir (str): Path to the directory with .csv/.parquet files
+        tables (list): List of table names (without extension)
+
+    Returns:
+        dict: Dictionary of DataFrames {table_name: DataFrame}
     """
-    dfs = {}
-    for fname in os.listdir(data_dir):
-        if fname.lower().endswith('.csv'):
-            key = fname.replace('.csv', '')
-            path = os.path.join(data_dir, fname)
-            dfs[key] = pd.read_csv(path)
-    return dfs
+    datasets = {}
+
+    for name in tables:
+        csv_path = os.path.join(data_dir, f"{name}.csv")
+        parquet_path = os.path.join(data_dir, f"{name}.parquet")
+
+        if os.path.exists(parquet_path):
+            df = pd.read_parquet(parquet_path)
+            print(f"Loaded {name} from Parquet")
+        elif os.path.exists(csv_path):
+            df = pd.read_csv(csv_path)
+            df.to_parquet(parquet_path, index=False)
+            print(f"Converted {name} from CSV to Parquet")
+        else:
+            raise FileNotFoundError(f"Neither CSV nor Parquet found for {name}")
+
+        datasets[name] = df
+
+    return datasets
 
 def show_basic_info(df, head=3):
     """
