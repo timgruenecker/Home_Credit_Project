@@ -1,0 +1,31 @@
+[project]
+name = "creditutils"
+version = "0.1.0"
+description = "Utility module for credit risk modeling (Home Credit)"
+dependencies = [
+    "pandas==2.3.0",
+    "numpy==1.26.2",
+    "matplotlib==3.8.4",
+    "seaborn==0.13.2",
+    "scikit-learn==1.7.0",
+    "lightgbm==4.6.0",
+    "xgboost==3.0.2",
+    "catboost==1.2.8",
+    "pyarrow==20.0.0",
+    "optuna==4.4.0",
+    "shap==0.47.2",
+    "featuretools==1.31.0",
+    "tqdm==4.67.1",
+    "wandb==0.21.0",
+    "ipykernel==6.29.5"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
