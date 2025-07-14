@@ -2,7 +2,7 @@
 
 This project predicts whether a loan applicant will default, based on financial and demographic data from the [Home Credit Kaggle competition](https://www.kaggle.com/competitions/home-credit-default-risk). The data includes information from applications, credit history, and external sources.
 
-Rather than optimizing for the highest AUC, the goal was to build a solid and interpretable baseline model using only a limited number of features. This project served as my first complete end-to-end machine learning pipeline, including feature engineering, cross-validation, ensembling, and automated evaluation.
+Rather than optimizing for the highest AUC, the goal was to build a **solid and interpretable baseline model using only a limited number of features**. This project served as my first complete end-to-end machine learning pipeline, including feature engineering, cross-validation, ensembling, and automated evaluation.
 
 ## Project Structure
 
