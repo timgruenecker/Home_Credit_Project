@@ -117,5 +117,3 @@ The LightGBM model already performed strongly on its own. Ensembling provided sl
 - AutoFeat-generated features: Introduced too much noise and led to worse validation performance.
 
 - For Feature Selection the most efficient selection-pipeline was to first include as many features as possible and then filtering with importance, correlation and lastly SHAP.
-
-# Noch Fazit oder Reflektion oder sowas einbauen, dass es nicht so abrupt aufhört 
