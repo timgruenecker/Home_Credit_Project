@@ -86,6 +86,7 @@ The modeling pipeline is organized into the following main steps:
 
 7. **Logging**  
    - Tracking and Logging with Weights and Biases: [WandB Website](https://wandb.ai/site/)
+   ![](wandb_logging_screenshot.png)
 
 Each step is documented in a separate notebook or script, ensuring a clear and reproducible workflow.
 
